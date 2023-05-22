@@ -1872,8 +1872,8 @@ MonoBehaviour:
   myDialogueList:
   - type: 0
     changeIllustration: 0
-    text: "Attention \xE0 tous les passagers en provenance de New Samara. Sortie
-      du Tube imminente. Reprise des moteurs \xE0 vapeur. "
+    text: Attention all passengers coming from New Samara. We will soon be exiting
+      the Tube. Steam engines will resume activity.
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -1884,8 +1884,7 @@ MonoBehaviour:
     nextDialogueIdx: 1
   - type: 0
     changeIllustration: 0
-    text: "Nous arriverons bient\xF4t en gare de Technograd, je r\xE9p\xE8te gare
-      de Technograd."
+    text: We will soon arrive at Technograd station, I repeat Technograd station.
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -1896,8 +1895,7 @@ MonoBehaviour:
     nextDialogueIdx: 2
   - type: 0
     changeIllustration: 0
-    text: "Merci de bien vouloir pr\xE9parer vos affaires afin de faciliter la sortie
-      du train. "
+    text: Please retrieve your belongings in order to facilitate your exit.
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -1908,8 +1906,8 @@ MonoBehaviour:
     nextDialogueIdx: 3
   - type: 0
     changeIllustration: 0
-    text: "Ne perdez pas de temps et n\u2019oubliez pas que les Hauts-dirigeants
-      veillent sur vous !"
+    text: "Don\u2019t waste your time and remember that the High-rulers are watching
+      over you !\n"
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -1937,8 +1935,7 @@ MonoBehaviour:
     nextDialogueIdx: 5
   - type: 1
     changeIllustration: 0
-    text: "Hmm\u2026 J\u2019esp\xE8re que tu ne t\u2019es pas trop mis dans le p\xE9trin
-      le temps que j\u2019arrive, Ethan\u2026 Cette lettre que tu m\u2019as envoy\xE9e\u2026 "
+    text: Hmm... Why this letter, Ethan ?
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -1960,8 +1957,8 @@ MonoBehaviour:
     nextDialogueIdx: 7
   - type: 1
     changeIllustration: 0
-    text: "\xAB Salut ma s\u0153ur\u202F! \n\xC7a fait longtemps qu\u2019on ne s\u2019est
-      pas parl\xE9, non\u202F? \xC7a doit faire quoi, bient\xF4t cinq ans\u202F?"
+    text: "\xAB Hey sis !\r\nIt\u2019s been a while since we last talked, no ?\r
+      \nIt must be what, almost five years ?"
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -1972,8 +1969,8 @@ MonoBehaviour:
     nextDialogueIdx: 8
   - type: 1
     changeIllustration: 0
-    text: "Enfin, depuis que j\u2019ai eu mon ticket pour quitter l\u2019\xEEle en
-      fait.\r\nTechnograd est vraiment une ville tentaculaire\u202F!"
+    text: "Well, since I left the isle, in fact.\r\nTechnograd really is a sprawling
+      city !\r"
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -1984,8 +1981,8 @@ MonoBehaviour:
     nextDialogueIdx: 9
   - type: 1
     changeIllustration: 0
-    text: "Les rues partent dans tous les sens, et on entend le bruit des machines
-      \xE0 vapeur \xE0 travers toute la ville."
+    text: Streets go out in all directions, and you can hear the noise of steam engines
+      all over the city.
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -1996,7 +1993,7 @@ MonoBehaviour:
     nextDialogueIdx: 10
   - type: 1
     changeIllustration: 0
-    text: "C\u2019en est parfois m\xEAme assourdissant\u2026"
+    text: "It\u2019s even deafening at times\u2026"
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -2007,8 +2004,8 @@ MonoBehaviour:
     nextDialogueIdx: 11
   - type: 1
     changeIllustration: 0
-    text: "J\u2019aimerais bien te dire de venir me rendre visite, mais je ne suis
-      pas s\xFBr que tu appr\xE9cierais la ville sur le long terme."
+    text: "You should soon have a memoir to write, no ?\r\nWhat if you came do it
+      at Technograd ?\r"
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -2019,8 +2016,8 @@ MonoBehaviour:
     nextDialogueIdx: 12
   - type: 1
     changeIllustration: 0
-    text: "C\u2019est difficile d\u2019y trouver du calme, ou m\xEAme de simplement
-      s\u2019y balader\u202F!"
+    text: I could show you around ! Did you know the docks are filled with hangars
+      from one end to the other ? There must be at least 107 of them !
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -2031,8 +2028,7 @@ MonoBehaviour:
     nextDialogueIdx: 13
   - type: 1
     changeIllustration: 0
-    text: "Rends-toi compte, les quais sont remplis de hangars d\u2019un bout \xE0
-      l\u2019autre de l\u2019\xEEle.\r\nIl doit bien y en avoir au moins 107\u202F!"
+    text: Well anyway, I look forward to hearing from you.
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -2043,8 +2039,7 @@ MonoBehaviour:
     nextDialogueIdx: 14
   - type: 1
     changeIllustration: 0
-    text: "Bon, assez parl\xE9 de moi. Et toi, que deviens-tu\u202F?\r\nJ\u2019ai
-      h\xE2te d\u2019avoir de tes nouvelles."
+    text: "Amicably, \r\nYour brother, Ethan\r."
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -2055,8 +2050,7 @@ MonoBehaviour:
     nextDialogueIdx: 15
   - type: 1
     changeIllustration: 0
-    text: "Tu commences ton m\xE9moire dans environ trente jours c\u2019est \xE7a\u202F?\nGarde
-      tes secrets pour quand on se reverra\u202F!"
+    text: "P.S. I left you a gift with this letter.\r\nTake good care of it !\u201D\u201D"
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -2065,29 +2059,33 @@ MonoBehaviour:
     isPetraTalking: 0
     showingObject: 1
     nextDialogueIdx: 16
-  - type: 1
+  - type: 0
     changeIllustration: 0
-    text: "Amicalement,\r\nTon fr\xE8re, Ethan \xBB"
-    playSound: 0
-    stringToPlay: 
+    text: 'Five years without news, and now that ?
+
+      How did he know I was
+      about to start my memoir ?
+
+'
+    playSound: 1
+    stringToPlay: Paper Crumbling
     changement: 0
     newObjets: []
     oldObjets: []
-    isPetraTalking: 0
-    showingObject: 1
+    isPetraTalking: 1
+    showingObject: 0
     nextDialogueIdx: 17
-  - type: 1
+  - type: 0
     changeIllustration: 0
-    text: "Cela fait cinq ans qu\u2019on ne s\u2019est pas parl\xE9, et maintenant
-      \xE7a ?\r\nEt comment savait-il que je commen\xE7ais mon m\xE9moire dans un
-      mois ?"
+    text: "And this phrasing\u2026 \u201CThere must be at least 107 of them !\u201D\r\nWhy
+      such a random number ?\r"
     playSound: 0
     stringToPlay: 
     changement: 0
     newObjets: []
     oldObjets: []
     isPetraTalking: 1
-    showingObject: 1
+    showingObject: 0
     nextDialogueIdx: 18
   - type: 0
     changeIllustration: 0
