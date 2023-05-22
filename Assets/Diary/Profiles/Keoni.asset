@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9791d302f16c46043a2e609009a796c1, type: 3}
+  m_Name: Keoni
+  m_EditorClassIdentifier: 
+  characterName: Keoni
+  characterDescriptions: "Un bandit que j'ai vu au travers de la montre. Il a l'air
+    d'\xE9prouver une certaine rancoeur envers mon fr\xE8re avec Katerina."
+  characterSprite: {fileID: 21300000, guid: 885fd429bb96d2c4f861771ec3be26ee, type: 3}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44a5888c7d4d251419e7ccd555ece289, type: 3}
+  m_Name: Day_01.8
+  m_EditorClassIdentifier: 
+  numberDay: 17/10/247
+  summary: "Elle a aussi demand\xE9 \xE0 un milicien de m\u2019escorter jusqu\u2019\xE0
+    l\u2019h\xF4tel. Je ne veux pas le faire attendre, donc je ferais mieux d\u2019y
+    aller."

@@ -1,0 +1,339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5819360642509467817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5819360642509467819}
+  - component: {fileID: 5819360642509467818}
+  - component: {fileID: 2426911916467910630}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5819360642509467819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5819360642509467817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5819360642509467818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5819360642509467817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e655b27e6cc00747b4f8042f288eb18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMixerGroup: {fileID: 24300002, guid: 140b2a741496fde43a60d45f73045aef, type: 2}
+  musicMixerGroup: {fileID: -816583142374632326, guid: 140b2a741496fde43a60d45f73045aef, type: 2}
+  SFXMixerGroup: {fileID: 3417633623848546410, guid: 140b2a741496fde43a60d45f73045aef, type: 2}
+  dialogueMixerGroup: {fileID: -7249093178392055189, guid: 140b2a741496fde43a60d45f73045aef, type: 2}
+  musics:
+  - audioType: 1
+    name: MainTheme
+    clip: {fileID: 8300000, guid: ab7e88dda041445418c5db89240605b7, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 1
+    name: MainTheme2
+    clip: {fileID: 8300000, guid: c4067f7f5e463004499a00653b4c7235, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 1
+    name: Gare
+    clip: {fileID: 8300000, guid: 68b4c39a3b7041347bc3a599fe45f820, type: 3}
+    volume: 0.18
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 1
+    name: "H\xF4tel"
+    clip: {fileID: 8300000, guid: f58ee0aac8cab22489877a5910c59fc3, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 1
+    name: Grande Place
+    clip: {fileID: 8300000, guid: 203ef47b60c747646a40d09987ecd5ca, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 1
+    name: Ruelle
+    clip: {fileID: 8300000, guid: cd0f8317e51648243850dc29e8f6c999, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 1
+    name: Market
+    clip: {fileID: 8300000, guid: 4d8600b93546cc449b2999ddf6a43629, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 1
+    name: Hangars
+    clip: {fileID: 8300000, guid: ce08bc9d343e5524cb209855e6c7a680, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 1
+    name: Hangars_Reverse
+    clip: {fileID: 8300000, guid: 614f385ec933c8340bdea4819fdcb6a7, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 0
+    name: Clock_Tick_01
+    clip: {fileID: 8300000, guid: 7995df4cc381f7443972962c1e61a288, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Clock_Tick_02
+    clip: {fileID: 8300000, guid: 9fa230c4d7083084ab7f136096ab3c0f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Clock_Tick_03
+    clip: {fileID: 8300000, guid: 290ec2bac84e7f942a372b70d1994994, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Station_01
+    clip: {fileID: 8300000, guid: a12f85cf8fb80914e947270ceccf5b4c, type: 3}
+    volume: 0.5
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Station_02
+    clip: {fileID: 8300000, guid: f8559e4d8338beb49bde66396371d098, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Alarm
+    clip: {fileID: 8300000, guid: ebc65cb1b565ead459462481ddcc20ac, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Paper Crumbling
+    clip: {fileID: 8300000, guid: 5926ad51648559044a65b6d04d88a589, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: InTrain_01
+    clip: {fileID: 8300000, guid: 752ba8f1a89764747938a11bb36f0380, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 0
+    name: InTrain_02
+    clip: {fileID: 8300000, guid: 8a4c589856a6a4f4ca4731163c23290d, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 0
+    name: InTrain_03
+    clip: {fileID: 8300000, guid: f8559e4d8338beb49bde66396371d098, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 0
+    name: Train Brake
+    clip: {fileID: 8300000, guid: 8948eb236ba4f884c8e16e5185a2295a, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Train Arrival
+    clip: {fileID: 8300000, guid: a643d7555d4d7fa41b766b8dab028078, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Train Door
+    clip: {fileID: 8300000, guid: abfd6c4fd97345741b3c36015c46b9f5, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: ClickTik
+    clip: {fileID: 8300000, guid: f7fab61c586a34c409829c5fb7e44da0, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: HoverTik
+    clip: {fileID: 8300000, guid: 4c922aeb6baba5c49be87e08b4335f90, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: HoverTik
+    clip: {fileID: 8300000, guid: 4c922aeb6baba5c49be87e08b4335f90, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Writing
+    clip: {fileID: 8300000, guid: 16d54e8afa9d7474a9cd3a416465200e, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Book
+    clip: {fileID: 8300000, guid: 0b7fac824e3e65d4c89c00c0961e2b71, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Map
+    clip: {fileID: 8300000, guid: c13bedca745125549b10baf59bc241f0, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Bag
+    clip: {fileID: 8300000, guid: 7aca7abfda8edcd49b61ed5a7462a187, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: PetraFoot
+    clip: {fileID: 8300000, guid: e8752292ccfbc064ba84879a7e90a1c8, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: GersandeFoot
+    clip: {fileID: 8300000, guid: 7503323c2adc0ec4b9ff4302833f4b3d, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: "L\xE9oFoot"
+    clip: {fileID: 8300000, guid: a41c4f56a9010484399a117044c522ee, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: OpenBox
+    clip: {fileID: 8300000, guid: cc0fce86a8a90e142bc3c6a9fbec9b6d, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 0
+    name: Rain
+    clip: {fileID: 8300000, guid: 164c41f1a2338cf4e84a4fd2c535542b, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 0
+    name: Town
+    clip: {fileID: 8300000, guid: 107f6e66c8d85f44d97eee19acbd81f6, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  dialogues:
+  - audioType: 2
+    name: Dialogue_01
+    clip: {fileID: 8300000, guid: bacbead4c4c235742bc2127eb98e0601, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 2
+    name: Dialogue_02
+    clip: {fileID: 8300000, guid: 0d31121b728e50e49b4c91c3fca9c654, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  currentTrack:
+    audioType: 0
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  newTrack:
+    audioType: 0
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+--- !u!114 &2426911916467910630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5819360642509467817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3220fbb159f755e4abc35e2cb0fc6658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237ed0855a090964bb5d084f831bf3bd, type: 3}
+  m_Name: Ticket
+  m_EditorClassIdentifier: 
+  itemName: "Ticket de s\xE9jour"
+  itemSubtitle: "Mon justificatif de s\xE9jour \xE0 Technograd"
+  readDescription: 0
+  itemDescription: "Mon ticket de s\xE9jour, qui me donne le droit de faire mes recherches
+    sur l\u2019\xEEle. Il contient mon num\xE9ro de citoyen : NS 280134401917."
+  canExamine: 0
+  pastItem: {fileID: 0}
+  descriptionPostExamen: 
+  isExamined: 1
+  isProofs: 1

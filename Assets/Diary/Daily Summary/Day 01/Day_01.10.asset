@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44a5888c7d4d251419e7ccd555ece289, type: 3}
+  m_Name: Day_01.10
+  m_EditorClassIdentifier: 
+  numberDay: 17/10/247
+  summary: "Fergus n\u2019est toujours pas l\xE0, donc je vais en profiter pour aller
+    voir Ethan. Si je me d\xE9p\xEAche, je peux peut-\xEAtre rattraper ce milicien
+    pour qu\u2019il me guide jusqu\u2019aux hangars."
