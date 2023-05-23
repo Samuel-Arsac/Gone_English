@@ -1617,7 +1617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.13043907, y: 0.35011613}
   m_AnchorMax: {x: 0.30962843, y: 0.4135186}
-  m_AnchoredPosition: {x: -133.7038, y: 186.44382}
+  m_AnchoredPosition: {x: -133.7038, y: 186.44385}
   m_SizeDelta: {x: 82.21561, y: 49.535355}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025044424
@@ -2059,12 +2059,12 @@ MonoBehaviour:
     isPetraTalking: 0
     showingObject: 1
     nextDialogueIdx: 16
-  - type: 0
+  - type: 1
     changeIllustration: 0
     text: 'Five years without news, and now that ?
 
-      How did he know I was
-      about to start my memoir ?
+      How did he know I was about
+      to start my memoir ?
 
 '
     playSound: 1
@@ -2075,7 +2075,7 @@ MonoBehaviour:
     isPetraTalking: 1
     showingObject: 0
     nextDialogueIdx: 17
-  - type: 0
+  - type: 1
     changeIllustration: 0
     text: "And this phrasing\u2026 \u201CThere must be at least 107 of them !\u201D\r\nWhy
       such a random number ?\r"
@@ -2087,161 +2087,54 @@ MonoBehaviour:
     isPetraTalking: 1
     showingObject: 0
     nextDialogueIdx: 18
-  - type: 0
+  - type: 1
     changeIllustration: 0
-    text: "C'est tr\xE8s bizarre tout \xE7a... Et sans compter cette lettre qui semble
-      tout \xE0 fait banale, mais ce message \xE0 la fin..."
+    text: "Not to mention this gift\u2026\r\nWhat am I supposed to do with a watch
+      with blocked hands\_?\r"
     playSound: 0
     stringToPlay: 
     changement: 0
     newObjets: []
     oldObjets: []
     isPetraTalking: 1
-    showingObject: 1
+    showingObject: 0
     nextDialogueIdx: 19
   - type: 1
     changeIllustration: 0
-    text: "\xAB Garde tes secrets \xBB\r.\nLe message qu\u2019on utilisait quand
-      on parlait encore pour se passer des messages cod\xE9s."
+    text: "Frankly, it\u2019s all very weird\u2026\r\nIs he trying to tell me something
+      ?\r"
     playSound: 0
     stringToPlay: 
     changement: 0
     newObjets: []
     oldObjets: []
     isPetraTalking: 1
-    showingObject: 1
+    showingObject: 0
     nextDialogueIdx: 20
   - type: 1
     changeIllustration: 0
-    text: "Et sans parler des taches d\u2019encre sous certaines lettres pr\xE9cises."
+    text: "If it\u2019s just some twisted way to get me to visit him, I\u2019m going
+      to\u2026"
     playSound: 0
     stringToPlay: 
     changement: 0
     newObjets: []
     oldObjets: []
     isPetraTalking: 1
-    showingObject: 1
+    showingObject: 0
     nextDialogueIdx: 21
   - type: 1
     changeIllustration: 0
-    text: "\xAB S -\u0153ur ; F -ait ; B -ient\xF4t ; tic- K -et ; P -our ; J -\u2019aimerais
-      ; B -ien ; Q -uais ; b- O -ut ; l\u2019aut- R -e ;\r\nI- L ; moin- S ; B -on
-      ; n- O-uvelles \xBB"
+    text: Does he realise the amount of paperwork I had to fill to get my hands on
+      a ticket of residence ?
     playSound: 0
     stringToPlay: 
     changement: 0
     newObjets: []
     oldObjets: []
     isPetraTalking: 1
-    showingObject: 1
+    showingObject: 0
     nextDialogueIdx: 22
-  - type: 1
-    changeIllustration: 0
-    text: "Cette suite de lettres semble n\u2019avoir aucun sens, mais le nombre
-      107 \xE9tant autant mis en avant, \xE7a ne peut vouloir dire qu\u2019une chose."
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 1
-    nextDialogueIdx: 23
-  - type: 1
-    changeIllustration: 0
-    text: "Un code c\xE9sar. Un code simple de cryptage nomm\xE9 d\u2019apr\xE8s
-      un grand homme des temps anciens."
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 1
-    nextDialogueIdx: 24
-  - type: 1
-    changeIllustration: 0
-    text: "Et quand on d\xE9place chaque lettre de 107 dans l\u2019alphabet, soit
-      3 pour plus de simplicit\xE9..."
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 1
-    nextDialogueIdx: 25
-  - type: 1
-    changeIllustration: 0
-    text: "\xAB Sfbkpjbqorlsbo \xBB devient \xAB Viens me trouver \xBB"
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 1
-    nextDialogueIdx: 26
-  - type: 1
-    changeIllustration: 0
-    text: "Franchement, Ethan, je t\u2019ai connu capable de plus de subtilit\xE9s.\r\nTu
-      devais vraiment \xEAtre en panique\u2026"
-    playSound: 1
-    stringToPlay: Paper Crumbling
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 0
-    nextDialogueIdx: 27
-  - type: 1
-    changeIllustration: 0
-    text: "\xC7a, et le fait m\xEAme que tu ais eu besoin de cacher ce message...\nJ\u2019esp\xE8re
-      qu\u2019il ne t\u2019ait rien arriv\xE9 de grave..."
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 0
-    nextDialogueIdx: 28
-  - type: 1
-    changeIllustration: 0
-    text: "J\u2019esp\xE8re vraiment que c\u2019est important, parce que je joue
-      mes \xE9tudes l\xE0-dessus."
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 0
-    nextDialogueIdx: 29
-  - type: 1
-    changeIllustration: 0
-    text: "J\u2019ai d\xFB trouver et pr\xE9parer un sujet de m\xE9moire pour que
-      l\u2019acad\xE9mie accepte de me laisser partir \xE0 Technograd\u2026"
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 0
-    nextDialogueIdx: 40
-  - type: 1
-    changeIllustration: 0
-    text: "Si c\u2019est un moyen d\xE9tourn\xE9 pour que je vienne juste te rendre
-      visite, je vais te tuer !"
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 0
-    nextDialogueIdx: 32
   - type: 0
     changeIllustration: 0
     text: ' '
@@ -2252,23 +2145,11 @@ MonoBehaviour:
     oldObjets: []
     isPetraTalking: 0
     showingObject: 0
-    nextDialogueIdx: 32
+    nextDialogueIdx: 23
   - type: 0
     changeIllustration: 0
-    text: "Attention \xE0 tous les passagers. Nous arrivons actuellement en gare
-      de Technograd. Je r\xE9p\xE8te, gare de Technograd."
-    playSound: 1
-    stringToPlay: Alarm
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 0
-    showingObject: 0
-    nextDialogueIdx: 33
-  - type: 0
-    changeIllustration: 0
-    text: "Merci de prendre vos affaires et de vous diriger vers la sortie du train
-      la plus proche pour faciliter l\u2019\xE9vacuation des voyageurs."
+    text: Attention all passengers. We are now arriving at Technograd station. I
+      repeat, Technograd station.
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -2276,11 +2157,11 @@ MonoBehaviour:
     oldObjets: []
     isPetraTalking: 0
     showingObject: 0
-    nextDialogueIdx: 34
+    nextDialogueIdx: 24
   - type: 0
     changeIllustration: 0
-    text: "La Trimadina vous remercie de votre apport \xE0 la soci\xE9t\xE9, et n\u2019oubliez
-      pas que les Hauts-dirigeants veillent sur vous !"
+    text: Please retrieve your belongings and head toward the closest train exit,
+      in order to facilitate the evacuation of the passengers.
     playSound: 0
     stringToPlay: 
     changement: 0
@@ -2288,31 +2169,19 @@ MonoBehaviour:
     oldObjets: []
     isPetraTalking: 0
     showingObject: 0
-    nextDialogueIdx: 35
-  - type: 1
+    nextDialogueIdx: 25
+  - type: 0
     changeIllustration: 0
-    text: "Bon, vu qu\u2019il n\u2019y a pas d\u2019autres informations, j\u2019imagine
-      que je vais pouvoir le retrouver au hangar n\xB0 107 ?"
+    text: The Trimadina thank you for your contribution to society, and remember
+      that the High-rulers are watching over you !
     playSound: 0
     stringToPlay: 
     changement: 0
     newObjets: []
     oldObjets: []
-    isPetraTalking: 1
+    isPetraTalking: 0
     showingObject: 0
-    nextDialogueIdx: 36
-  - type: 1
-    changeIllustration: 0
-    text: "La tournure de phrase est fort \xE9trange apr\xE8s tout.\r\nJ\u2019esp\xE8re
-      que je r\xE9ussirais \xE0 me faire assez de temps pour aller le retrouver."
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 0
-    nextDialogueIdx: 37
+    nextDialogueIdx: 26
   - type: 2
     changeIllustration: 0
     text: ' '
@@ -2328,11 +2197,11 @@ MonoBehaviour:
     - {fileID: 1347918744}
     isPetraTalking: 0
     showingObject: 0
-    nextDialogueIdx: 38
+    nextDialogueIdx: 27
   - type: 2
     changeIllustration: 1
-    text: "Enfin bref, il est temps pour moi d\u2019aller d\xE9couvrir Technograd,
-      la cit\xE9 technologique !"
+    text: "I hope I\u2019ll have enough time to go find him\u2026\r\nIf I find him
+      at all !\r"
     playSound: 1
     stringToPlay: Train Door
     changement: 0
@@ -2340,7 +2209,19 @@ MonoBehaviour:
     oldObjets: []
     isPetraTalking: 1
     showingObject: 0
-    nextDialogueIdx: 41
+    nextDialogueIdx: 28
+  - type: 1
+    changeIllustration: 0
+    text: "In any case, it\u2019s time for me to go discover Technograd, the technological
+      city !"
+    playSound: 0
+    stringToPlay: 
+    changement: 0
+    newObjets: []
+    oldObjets: []
+    isPetraTalking: 1
+    showingObject: 0
+    nextDialogueIdx: 29
   - type: 3
     changeIllustration: 0
     text: 
@@ -2352,29 +2233,6 @@ MonoBehaviour:
     isPetraTalking: 0
     showingObject: 0
     nextDialogueIdx: 40
-  - type: 1
-    changeIllustration: 0
-    text: "Et encore, j\u2019ai \xE0 peine r\xE9ussi \xE0 obtenir un droit de s\xE9jour
-      !"
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 1
-    showingObject: 0
-    nextDialogueIdx: 30
-  - type: 0
-    changeIllustration: 0
-    text: ' '
-    playSound: 0
-    stringToPlay: 
-    changement: 0
-    newObjets: []
-    oldObjets: []
-    isPetraTalking: 0
-    showingObject: 0
-    nextDialogueIdx: 39
 --- !u!114 &1129569778
 MonoBehaviour:
   m_ObjectHideFlags: 0
