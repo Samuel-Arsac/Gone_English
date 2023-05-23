@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: Day_01.9
   m_EditorClassIdentifier: 
   numberDay: 17/10/247
-  summary: "Je suis arriv\xE9e \xE0 l\u2019h\xF4tel sans encombre. Ma chambre n\u2019est
-    pas tr\xE8s fournie, mais elle donne une bonne vue sur la ville. De toute fa\xE7on,
-    je ne vais probablement pas y \xEAtre souvent. "
+  summary: 'I arrived at the hotel safely. My room is not very furnished, but it
+    has a good view of the city. I probably won''t be there much anyway. '

@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 237ed0855a090964bb5d084f831bf3bd, type: 3}
   m_Name: Lettre
   m_EditorClassIdentifier: 
-  itemName: Lettre
-  itemSubtitle: Lettre d'Ethan
+  itemName: Letter
+  itemSubtitle: Ethan's letter
   readDescription: 0
-  itemDescription: "Une lettre envoy\xE9e par mon fr\xE8re Ethan. Elle contient un
-    message cach\xE9 disant \n\xAB Viens me trouver \xBB."
+  itemDescription: A letter sent by my brother Ethan.
   canExamine: 1
   pastItem: {fileID: 4973185293528429709, guid: 8f9a7925320cc5245aa14963810dab7d, type: 3}
   descriptionPostExamen: 

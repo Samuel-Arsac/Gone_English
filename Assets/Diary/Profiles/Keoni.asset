@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Keoni
   m_EditorClassIdentifier: 
   characterName: Keoni
-  characterDescriptions: "Un bandit que j'ai vu au travers de la montre. Il a l'air
-    d'\xE9prouver une certaine rancoeur envers mon fr\xE8re avec Katerina."
+  characterDescriptions: A bandit I saw through the watch. He seems to have a grudge
+    against my brother with Katerina.
   characterSprite: {fileID: 21300000, guid: 885fd429bb96d2c4f861771ec3be26ee, type: 3}

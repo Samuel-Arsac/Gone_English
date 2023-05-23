@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 237ed0855a090964bb5d084f831bf3bd, type: 3}
   m_Name: Ticket
   m_EditorClassIdentifier: 
-  itemName: "Ticket de s\xE9jour"
-  itemSubtitle: "Mon justificatif de s\xE9jour \xE0 Technograd"
+  itemName: Ticket of stay
+  itemSubtitle: My proof of stay in Technograd
   readDescription: 0
-  itemDescription: "Mon ticket de s\xE9jour, qui me donne le droit de faire mes recherches
-    sur l\u2019\xEEle. Il contient mon num\xE9ro de citoyen : NS 280134401917."
+  itemDescription: 'My ticket of stay, which gives me the right to do my research
+    on the island. It contains my citizen number: NS 280134401917.'
   canExamine: 0
   pastItem: {fileID: 0}
   descriptionPostExamen: 

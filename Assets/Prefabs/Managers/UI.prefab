@@ -6258,7 +6258,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Journal
+  m_text: Diary
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1be42753e858dfb4d9d98a9846b262a9, type: 2}
   m_sharedMaterial: {fileID: -3236505275887351106, guid: 1be42753e858dfb4d9d98a9846b262a9, type: 2}
@@ -7325,7 +7325,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Personnages
+  m_text: Characters
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1be42753e858dfb4d9d98a9846b262a9, type: 2}
   m_sharedMaterial: {fileID: -3236505275887351106, guid: 1be42753e858dfb4d9d98a9846b262a9, type: 2}
@@ -10551,7 +10551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Preuves
+  m_text: Proofs
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1be42753e858dfb4d9d98a9846b262a9, type: 2}
   m_sharedMaterial: {fileID: -3236505275887351106, guid: 1be42753e858dfb4d9d98a9846b262a9, type: 2}
@@ -11495,7 +11495,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 333, y: 318}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 324.8115, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3539058490201339469
 CanvasRenderer:
@@ -13497,6 +13497,8 @@ MonoBehaviour:
     showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -13517,6 +13519,8 @@ MonoBehaviour:
     showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -19610,6 +19614,7 @@ MonoBehaviour:
   originalInterlocutorNamePos: {fileID: 9077483090893207173}
   originalPetraPos: {fileID: 697095137066281826}
   quitConfirmSection: {fileID: 4948085875380881216}
+  logSection: {fileID: 0}
   timeToFade: 1.25
   timeToFadeColor: 0.25
   colorToFade: {r: 0.14509805, g: 0.5176471, b: 0.7921569, a: 1}

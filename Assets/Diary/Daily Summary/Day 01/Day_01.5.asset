@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Day_01.5
   m_EditorClassIdentifier: 
   numberDay: 17/10/247
-  summary: "Je suis arriv\xE9 \xE0 Technograd, mais Fergus n\u2019est visible nulle
-    part. Ethan non plus, d\u2019ailleurs\u2026 J\u2019imagine que je vais devoir
-    me rendre jusqu\u2019aux hangars si je veux le rencontrer ? Franchement, c\u2019est
-    assez excessif, \xE7a ne lui ressemble pas."
+  summary: I arrived in Technograd, but Fergus is nowhere to be seen. I guess I'll
+    have to go to the hangars if I want to meet him? Frankly, it's a bit excessive,
+    it's not like him.

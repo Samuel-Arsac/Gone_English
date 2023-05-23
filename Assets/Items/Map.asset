@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 237ed0855a090964bb5d084f831bf3bd, type: 3}
   m_Name: Map
   m_EditorClassIdentifier: 
-  itemName: Carte de Technograd
-  itemSubtitle: Une carte de la ville
+  itemName: Technograd's map
+  itemSubtitle: A map of the town.
   readDescription: 0
-  itemDescription: "Une carte de la cit\xE9 technologique."
+  itemDescription: A map of the technological city.
   canExamine: 0
-  pastSprite: {fileID: 0}
-  isExamined: 0
+  pastItem: {fileID: 0}
   descriptionPostExamen: 
+  isExamined: 0
+  isProofs: 0

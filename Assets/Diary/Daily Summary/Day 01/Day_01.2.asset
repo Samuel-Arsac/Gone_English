@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: Day_01.2
   m_EditorClassIdentifier: 
   numberDay: 11/10/247
-  summary: "J\u2019ai d\xFB me d\xE9p\xEAcher de pr\xE9parer un m\xE9moire \xE0 pr\xE9senter,
-    mais j\u2019ai r\xE9ussi \xE0 obtenir un droit de s\xE9jour \xE0 Technograd.
-    Ce journal va donc me servir \xE0 prendre des notes pour ce m\xE9moire."
+  summary: I had to rush to prepare a thesis to present, but I managed to get a right
+    to stay in Technograd. So I will use this diary to take notes for this thesis.

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9791d302f16c46043a2e609009a796c1, type: 3}
   m_Name: Milicien
   m_EditorClassIdentifier: 
-  characterName: Milicien
-  characterDescriptions: "Un homme \xE9trange se tenant aupr\xE8s de Gersande. Il
-    n'est pas tr\xE8s communicatif et me fait un peu peur..."
+  characterName: Militiaman
+  characterDescriptions: A strange man standing next to Gersande. He is not very
+    communicative and scares me a bit...
   characterSprite: {fileID: 21300000, guid: ab52b0051b284e34d9629aa693911bb9, type: 3}

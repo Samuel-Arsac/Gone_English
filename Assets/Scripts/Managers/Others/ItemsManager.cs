@@ -12,8 +12,8 @@ public class ItemsManager : ProjectManager<ItemsManager>
     protected override void Awake()
     {
         base.Awake();
-        InstantiateObject("Lettre");
-        InstantiateObject("Ticket de séjour");
+        InstantiateObject("Letter");
+        InstantiateObject("Ticket of stay");
     }
 
     public void InstantiateObject(string nameObject)

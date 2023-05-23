@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "L\xE9o"
   m_EditorClassIdentifier: 
   characterName: "L\xE9o"
-  characterDescriptions: "Un enfant que j'ai rencontr\xE9 sur la Grande Place, il
-    a l'air tr\xE8s malin pour son \xE2ge et conna\xEEt Technograd comme sa poche."
+  characterDescriptions: A child I met on the Main Square, he looks very smart for
+    his age and knows Technograd like the back of his hand.
   characterSprite: {fileID: 21300000, guid: 243fc2ec597f52a4ea1bdfe2d3138155, type: 3}

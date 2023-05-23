@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: Day_01.3
   m_EditorClassIdentifier: 
   numberDay: 15/10/247
-  summary: "J\u2019ai re\xE7u aujourd\u2019hui le ticket de s\xE9jour qui me permettra
-    de prendre le train et de r\xE9sider \xE0 Technograd. \xC7a a pris du temps,
-    mais je vais bient\xF4t pouvoir rejoindre Ethan \xE0 Technograd."
+  summary: I received today the ticket that will allow me to take the train and reside
+    in Technograd. It took a while, but I will soon be able to join Ethan in Technograd.

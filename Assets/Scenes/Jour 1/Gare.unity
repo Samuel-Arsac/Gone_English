@@ -349,8 +349,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Bon, avant tout, il faut que je trouve M. Fergus, mon tuteur. La gare
-      semble assez vide, je ne devrais pas avoir de mal \xE0..."
+    text: "First of all, I need to find Mr. Fergus, my tutor. The station seems rather
+      empty, it shouldn\u2019t be too hard to\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -371,7 +371,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Bienvenue \xE0 Technograd, ch\xE8re madame !"
+    text: Welcome to Technograd, dear lady !
     noNames: 1
     unknownCharacter: 0
     showingObject: 0
@@ -392,8 +392,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Je suis Gersande, l\u2019Ambassadrice de la gare Technograd-New Samara,
-      ici pour vous accueillir dans notre merveilleuse cit\xE9 !"
+    text: I am Gersande, the Ambassadress of the Technograd-New Samara train station,
+      here to greet you in our wonderful city !
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -414,7 +414,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Euh oui, bien s\xFBr."
+    text: Uh, yes, of course.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -435,7 +435,7 @@ MonoBehaviour:
   - type: 1
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Je ferais mieux de lui glisser mon ticket de s\xE9jour..."
+    text: "I better hand her my ticket\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -456,7 +456,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Euh non, il faudrait mieux que j\u2019\xE9vite de montrer \xE7a aux gens\u2026"
+    text: Uh no, this is personal. Where could have I put this ticket ?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -477,7 +477,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Tenez.
+    text: Here you go.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -498,7 +498,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Merci bien ! Voyons voir...
+    text: "Thank you very much ! Now let\u2019s see\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -519,7 +519,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Oh, vous n\u2019\xEAtes qu\u2019une professeure."
+    text: "Oh, you\u2019re just a professor."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -540,7 +540,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Hum\u2026 Oui ?"
+    text: "Hum\u2026 Yes ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -561,7 +561,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Votre s\xE9jour est bien valid\xE9, vous pouvez circuler maintenant."
+    text: Your stay has been validated, you may go now.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -582,7 +582,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: ...Merci ?
+    text: ...Thanks ?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -603,8 +603,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Allez, d\xE9p\xEAchez vous de descendre de la plateforme et arr\xEAtez
-      de me faire perdre mon temps !"
+    text: Go on then, hurry up off the platform and stop making me waste my time
+      !
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -625,7 +625,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Euh oui, pardon.
+    text: Uh yes, sorry.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -646,9 +646,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Et bien, cette ambassadrice n\u2019avait pas l\u2019air tr\xE8s commode.
-      J\u2019imagine que c\u2019est ce qui attend la plupart des gens qui voyagent
-      d\u2019\xEEle en \xEEle !"
+    text: "Well, this ambassadress didn\u2019t seem very friendly. I guess this is
+      the norm for people of my class who travel from island to island."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -669,7 +668,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Enfin bref, il faut que je trouve M. Fergus maintenant.
+    text: Anyway, I need to find Mr. Fergus, now.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -690,8 +689,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "De ce qu\u2019on m\u2019a dit, c\u2019est un petit homme enrob\xE9, avec
-      une forte moustache et une calvitie naissante..."
+    text: "From what I gathered, he\u2019s a short, chubby man, with a strong mustache
+      and a receding hairline\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -754,8 +753,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "... Il n\u2019a pas l\u2019air d\u2019\xEAtre l\xE0. J\u2019imagine que
-      je vais devoir rejoindre l\u2019h\xF4tel par moi-m\xEAme."
+    text: "... It doesn\u2019t look like he\u2019s here. Guess I\u2019ll have to
+      find my way to the hotel by myself."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -776,8 +775,7 @@ MonoBehaviour:
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Je devrais peut-\xEAtre demander des informations sur comment s\u2019y
-      rendre."
+    text: ' Maybe I should ask someone for directions.'
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -798,7 +796,8 @@ MonoBehaviour:
   - type: 1
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Je ne peux pas partir sans pr\xE9senter mon titre de s\xE9jour."
+    text: "I need to give her my ticket if I don\u2019t want to be sent back to New
+      Samara."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -819,7 +818,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Puis-je vois votre ticket de s\xE9jour ?"
+    text: May I see your ticket of residence ?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -839,7 +838,7 @@ MonoBehaviour:
     petraSpriteIdx: 0
   proofsPresentations: 1
   myProofLists:
-  - objectToProgress: "Ticket de s\xE9jour"
+  - objectToProgress: Ticket of stay
     dialogueToGo: 6
 --- !u!114 &112756718
 MonoBehaviour:
@@ -1016,8 +1015,7 @@ MonoBehaviour:
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Hum\u2026 Laissez-moi v\xE9rifier le nom de l\u2019h\xF4tel sur la carte
-      un instant\u2026"
+    text: "Hum\u2026 Let me check the name of the hotel on the map\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1423,8 +1421,8 @@ MonoBehaviour:
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Je ferais mieux de regarder ma carte avant de sortir. Je pr\xE9f\xE9rerais
-      \xE9viter de me tromper en donnant le nom de l\u2019h\xF4tel \xE0 ce policier\u2026\u202F"
+    text: "I should take a look at my map before leaving the station. I don\u2019t
+      want to make a mistake giving the name of the hotel to the militiaman\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1835,7 +1833,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Les Trains \xE0 Extr\xEAme Vitesse sont vraiment une merveille de technologie. "
+    text: Extreme Speed Trains really are a wonder of technology.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1856,8 +1854,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Passer d\u2019une \xEEle \xE0 l\u2019autre en moins de deux heures\u2026
-      C\u2019est vraiment fantastique\u202F!"
+    text: "Going from one island to another in less than two hours\u2026 It\u2019s
+      truly fantastic !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1878,9 +1876,8 @@ MonoBehaviour:
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Par contre, j\u2019aimerais bien qu\u2019ils fassent quelque chose pour
-      le pic d\u2019acc\xE9l\xE9ration en rentrant dans le tube. C\u2019est assez
-      vomitif\u2026"
+    text: "Though, I wish they\u2019d do something about the quick acceleration when
+      entering the tube. It\u2019s quite nausea inducing\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -3926,8 +3923,8 @@ MonoBehaviour:
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Je pr\xE9f\xE8re \xE9viter de me perdre d\xE8s la sortie de la gare. Je
-      ferais mieux de demander des indications \xE0 quelqu\u2019un."
+    text: "I\u2019d rather not get lost as soon as I exit the station. I better ask
+      someone for directions."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4334,7 +4331,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Excusez-moi\u2026"
+    text: "Excuse me\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4355,7 +4352,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Encore vous\u202F? Qu\u2019y a-t-il\u202F?"
+    text: You again ? What is it ?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4376,7 +4373,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Pourriez-vous m\u2019indiquer le chemin vers l\u2019h\xF4tel Dmitrisson\u202F?"
+    text: Could you give me directions to the hotel Dmitrisson ?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4397,8 +4394,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Demandez \xE7a \xE0 votre tuteur. Je n\u2019ai pas le temps de m\u2019occuper
-      de vous."
+    text: "Ask that to your tutor. I\u2019m too busy to take care of you. You do
+      have a tutor, right ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4419,7 +4416,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Justement. Il n\u2019est pas l\xE0."
+    text: "Precisely. He\u2019s not here."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4440,8 +4437,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Qu\u2026 Il n\u2019est pas l\xE0\u202F?! Est-il incapable d\u2019effectuer
-      correctement son travail\u202F?! "
+    text: "Wh\u2026 He\u2019s not here ?! Is he incapable of doing his work properly
+      ?!"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4462,7 +4459,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "On ne peut vraiment pas vous faire confiance, \xE0 vous autres les acad\xE9miciens\u2026"
+    text: " We really can\u2019t trust you academics\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4483,7 +4480,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Donc\u2026 Est-ce que vous pourriez\u2026"
+    text: "So\u2026 Could you\u2026?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4504,7 +4501,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Je compatis, mais je n\u2019ai pas le temps de vous accompagner."
+    text: "I sympathize, but I don\u2019t have the time to accompany you."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4525,8 +4522,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 1
     objectsAfterChangement: {fileID: 1323249353}
-    text: "Ce policier va vous guider jusqu\u2019\xE0 votre h\xF4tel, et prenez aussi
-      cette carte au cas o\xF9 \xE7a arrive encore."
+    text: This militia member will guide you to your hotel, and take this map too
+      in case this happens again.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4547,7 +4544,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Oh. Merci, je crois.
+    text: Oh. Thank you, I think.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4568,7 +4565,29 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Bon. J\u2019imagine que c\u2019est mieux que rien."
+    text: "I already wasted enough time helping you, I need to go back to my work.
+      Don\u2019t bother me anymore !"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 12
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 4
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "Well. I guess it\u2019s better than nothing."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4581,15 +4600,15 @@ MonoBehaviour:
     isPetraTalking: 1
     isPetraThinking: 1
     isThirdTalking: 0
-    nextDialogueIdx: 12
+    nextDialogueIdx: 13
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 4
+    petraSpriteIdx: 12
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Hum\u2026 Merci de votre aide, Monsieur\u2026\u202F?"
+    text: "Hum\u2026 Thanks for your help, Mister\u2026?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4602,7 +4621,7 @@ MonoBehaviour:
     isPetraTalking: 1
     isPetraThinking: 0
     isThirdTalking: 0
-    nextDialogueIdx: 13
+    nextDialogueIdx: 14
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 0
@@ -4623,7 +4642,7 @@ MonoBehaviour:
     isPetraTalking: 0
     isPetraThinking: 0
     isThirdTalking: 1
-    nextDialogueIdx: 14
+    nextDialogueIdx: 15
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 0
@@ -4631,7 +4650,7 @@ MonoBehaviour:
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Bien.
+    text: ...Right.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4892,7 +4911,7 @@ MonoBehaviour:
   isAlone: 0
   pastDialogue: 0
   gotLinkCharacter: 1
-  linkCharacter: {fileID: 1307918415}
+  linkCharacter: {fileID: 1370081290}
   autoLaunch: 0
   waitForLaunchTime: 0
   newChangement: 1
@@ -4935,7 +4954,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Excusez-moi\u2026"
+    text: "Excuse me\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4956,7 +4975,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Encore vous\u202F? Qu\u2019y a-t-il\u202F?"
+    text: You again ? What is it ?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4977,7 +4996,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Pourriez-vous m\u2019indiquer le chemin vers l\u2019h\xF4tel Dmitrisson\u202F?"
+    text: Could you give me directions to the hotel Dmitrisson ?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4998,8 +5017,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Demandez \xE7a \xE0 votre tuteur. Je n\u2019ai pas le temps de m\u2019occuper
-      de vous."
+    text: "Ask that to your tutor. I\u2019m too busy to take care of you. You do
+      have a tutor, right ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5020,7 +5039,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Justement. Il n\u2019est pas l\xE0."
+    text: "Precisely. He\u2019s not here."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5041,8 +5060,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Qu\u2026 Il n\u2019est pas l\xE0\u202F?! Est-il incapable d\u2019effectuer
-      correctement son travail\u202F?! "
+    text: "Wh\u2026 He\u2019s not here ?! Is he incapable of doing his work properly
+      ?!"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5063,7 +5082,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "On ne peut vraiment pas vous faire confiance, \xE0 vous autres les acad\xE9miciens\u2026"
+    text: " We really can\u2019t trust you academics\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5084,7 +5103,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Donc\u2026 Est-ce que vous pourriez\u2026"
+    text: "So\u2026 Could you\u2026?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5105,7 +5124,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Je compatis, mais je n\u2019ai pas le temps de vous accompagner."
+    text: "I sympathize, but I don\u2019t have the time to accompany you."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5126,8 +5145,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 1
     objectsAfterChangement: {fileID: 1323249353}
-    text: "Ce policier va vous guider jusqu\u2019\xE0 votre h\xF4tel, et prenez aussi
-      cette carte au cas o\xF9 \xE7a arrive encore."
+    text: This militia member will guide you to your hotel, and take this map too
+      in case this happens again.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5148,7 +5167,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Oh. Merci, je crois.
+    text: Oh. Thank you, I think.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5169,7 +5188,29 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Bon. J\u2019imagine que c\u2019est mieux que rien."
+    text: "I already wasted enough time helping you, I need to go back to my work.
+      Don\u2019t bother me anymore !"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 12
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 4
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "Well. I guess it\u2019s better than nothing."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5182,15 +5223,15 @@ MonoBehaviour:
     isPetraTalking: 1
     isPetraThinking: 1
     isThirdTalking: 0
-    nextDialogueIdx: 12
+    nextDialogueIdx: 13
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 4
+    petraSpriteIdx: 12
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Hum\u2026 Merci de votre aide, Monsieur\u2026\u202F?"
+    text: "Hum\u2026 Thanks for your help, Mister\u2026?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5203,7 +5244,7 @@ MonoBehaviour:
     isPetraTalking: 1
     isPetraThinking: 0
     isThirdTalking: 0
-    nextDialogueIdx: 13
+    nextDialogueIdx: 14
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 0
@@ -5224,7 +5265,7 @@ MonoBehaviour:
     isPetraTalking: 0
     isPetraThinking: 0
     isThirdTalking: 1
-    nextDialogueIdx: 14
+    nextDialogueIdx: 15
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 0
@@ -5232,7 +5273,7 @@ MonoBehaviour:
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Bien.
+    text: ...Right.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6016,7 +6057,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Grmbl\u2026 Satan\xE9s acad\xE9miciens\u2026 Font jamais leur boulot\u2026"
+    text: "Grmbl\u2026 Damn academics\u2026 Never do their jobs\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6037,8 +6078,7 @@ MonoBehaviour:
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Je ferais mieux d\u2019\xE9viter de l\u2019\xE9nerver encore plus. Elle
-      m\u2019a d\xE9j\xE0 suffisamment aid\xE9e."
+    text: She seems annoyed. I better avoid angering her any more if I can.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -7008,6 +7048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UIModule: {fileID: 0}
   enableLog: 0
+  enableDebug: 0
 --- !u!1001 &1064217205733510662
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Katerina
   m_EditorClassIdentifier: 
   characterName: Katerina
-  characterDescriptions: "Aussi appel\xE9 \"Katie\". Une bandit que j'ai vu au travers
-    de la montre. Elle suit Keoni et semble \xEAtre li\xE9 \xE0 Ethan..."
+  characterDescriptions: Also known as "Katie". A bandit that I saw through the watch.
+    She follows Keoni and seems to be related to Ethan...
   characterSprite: {fileID: 21300000, guid: 441cf6546ed6ea64ca0939baf616f49a, type: 3}

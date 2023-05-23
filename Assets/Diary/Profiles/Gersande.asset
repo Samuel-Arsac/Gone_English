@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: Gersande
   m_EditorClassIdentifier: 
   characterName: Gersande
-  characterDescriptions: "Une ambassadrice hautaine qui m'a acceuilie lors de mon
-    arriv\xE9e \xE0 Technograd."
+  characterDescriptions: A haughty ambassador who welcomed me when I arrived in Technograd.
   characterSprite: {fileID: 21300000, guid: e31011780c81e214ca8c46a562c646d4, type: 3}

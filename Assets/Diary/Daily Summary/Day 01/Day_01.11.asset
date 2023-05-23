@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: Day_01.11
   m_EditorClassIdentifier: 
   numberDay: 17/10/247
-  summary: "La grand-place est vraiment belle, mais je n\u2019ai pas le temps de
-    rester admirer. Il faut vite que je me rende aux hangars tant que j\u2019en ai
-    le temps."
+  summary: The main square is really beautiful, but I don't have time to stay and
+    admire it. I have to go quickly to the hangars while I have time.
