@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2911501096571072919}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5845542348852034889
 MonoBehaviour:
@@ -81,11 +81,119 @@ MonoBehaviour:
   - type: 3
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: 'Je veux chercher encore un peu avant de repartir. '
+    text: 'I want to look around a bit more before I leave. '
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 1
+    isPetraThinking: 1
+    isThirdTalking: 0
+    nextDialogueIdx: 1
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 3
+  proofsPresentations: 0
+  myProofLists: []
+--- !u!1 &114255649800374750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2656461202789189439}
+  - component: {fileID: 87603067315991367}
+  m_Layer: 0
+  m_Name: WatchDisableDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2656461202789189439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114255649800374750}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2911501096571072919}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &87603067315991367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114255649800374750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4773609fada066c45bbf1438dfe3b7a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterNameSprite:
+  - {fileID: 21300000, guid: d4ff575d5df62694bacd77541441024a, type: 3}
+  isAlone: 1
+  pastDialogue: 0
+  gotLinkCharacter: 0
+  linkCharacter: {fileID: 0}
+  autoLaunch: 1
+  waitForLaunchTime: 1
+  newChangement: 0
+  newObjects: []
+  destroyWhenChangement: []
+  objectsToInstantiate: []
+  FirstCharacterSprites:
+  - {fileID: 21300000, guid: 243fc2ec597f52a4ea1bdfe2d3138155, type: 3}
+  - {fileID: 21300000, guid: f22637fcd3302a34480d5662398c79cc, type: 3}
+  - {fileID: 21300000, guid: 64ca4ab510d200d409f1232fd140ce32, type: 3}
+  - {fileID: 21300000, guid: 882f405ada8a41947986340161a99c9c, type: 3}
+  anotherInterlocutor: 0
+  OtherToTalkSprites: []
+  PetraSprites:
+  - {fileID: 21300000, guid: fec0ac9b47a33d140a2536228439c054, type: 3}
+  - {fileID: 21300000, guid: f20aa2464df61db48b1f7f511dbba495, type: 3}
+  - {fileID: 21300000, guid: d9a1bc88ef85e9b4095e06bd68e9cfda, type: 3}
+  - {fileID: 21300000, guid: d34548298a95a20408763bd6012196d4, type: 3}
+  - {fileID: 21300000, guid: 3c7b120817d96ef40ab08e54de9da162, type: 3}
+  - {fileID: 21300000, guid: d101db56bdd2dc34886db2610d2b05f3, type: 3}
+  - {fileID: 21300000, guid: 761f6d9fb6943e54aa33ea5e38c986a3, type: 3}
+  - {fileID: 21300000, guid: 49b0e8ee65537254c83d83f444940747, type: 3}
+  - {fileID: 21300000, guid: 3a5eaf498aa260b438d345807cf7756f, type: 3}
+  - {fileID: 21300000, guid: a694fb83a3272484eb4f67a7411ed993, type: 3}
+  - {fileID: 21300000, guid: e26a9fedc1dfb334986bbe69b194d55c, type: 3}
+  - {fileID: 21300000, guid: 587f0ec5aba29444aa0af418b2475b0e, type: 3}
+  - {fileID: 21300000, guid: 86afb16bc0af4be45b771f2b89adc833, type: 3}
+  - {fileID: 21300000, guid: 0808fb3472e37fd4ba5cbd56c2a70903, type: 3}
+  - {fileID: 21300000, guid: c017c73d71b01f7478abc0612f899c2f, type: 3}
+  - {fileID: 21300000, guid: 1a66244aa25397a4db69a0c58e928d4b, type: 3}
+  - {fileID: 21300000, guid: f8cf733de7b49fc4a8a755a31f8f3b13, type: 3}
+  myDialogueList:
+  - type: 3
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: Despite a detailed inspection from all angles, nothing special happens
+      with this watch...
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -127,7 +235,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2911501096571072919}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &299069275753889108
 MonoBehaviour:
@@ -179,11 +287,14 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Je veux comprendre comment cette montre fonctionne avant de partir.
+    text: I want to understand how this watch works before I leave.
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -201,8 +312,11 @@ MonoBehaviour:
       ?"
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -247,6 +361,7 @@ Transform:
   - {fileID: 2587494626283160211}
   - {fileID: 2447673012300018027}
   - {fileID: 8605564978583023734}
+  - {fileID: 2656461202789189439}
   - {fileID: 7541363969342930898}
   - {fileID: 3399640739218059379}
   - {fileID: 3446558782798515110}
@@ -274,8 +389,11 @@ MonoBehaviour:
     text: 
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 0
     isFirstInterlocutorHere: 0
     isPetraTalking: 0
@@ -299,7 +417,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterInfo: {fileID: 0}
-  cantExamineDialogue: {fileID: 4175817894013775025}
+  cantExamineDialogue:
+  - {fileID: 87603067315991367}
+  - {fileID: 4175817894013775025}
   afterLetterExamenDialogue: {fileID: 8990116785023535636}
   cantTravelDialogues:
   - {fileID: 7542460144944585144}
@@ -342,7 +462,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2911501096571072919}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1482236997849927192
 MonoBehaviour:
@@ -394,12 +514,14 @@ MonoBehaviour:
   - type: 3
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Non, c\u2019est trop loin pour que j\u2019y retournes. Il faut que je
-      me rende aux hangars, vite."
+    text: No, it's too far for me to go back. I need to get to the hangars, fast.
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -423,7 +545,7 @@ GameObject:
   - component: {fileID: 8605564978583023734}
   - component: {fileID: 4175817894013775025}
   m_Layer: 0
-  m_Name: AfterLetterEnviroExamenDialogue
+  m_Name: AfterFirstExamenEnvironnementDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -496,11 +618,14 @@ MonoBehaviour:
   - type: 3
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Hmm\u2026 On dirait que la montre ne d\xE9tecte plus rien dans cette zone."
+    text: Hmm... It seems that the watch doesn't detect anything in this area anymore.
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -542,7 +667,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2911501096571072919}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7542460144944585144
 MonoBehaviour:
@@ -594,13 +719,15 @@ MonoBehaviour:
   - type: 3
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Non, la Gare est bien trop loin. Je ferais mieux de descendre \xE0 la
-      Grand-Place d\u2019abord, je pourrais peut-\xEAtre y trouver quelqu\u2019un
-      pour me guider.\u202F"
+    text: "No, the train station is too far. I'd better go down to the main square
+      first, maybe I can find someone to guide me.\u202F"
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -629,7 +756,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2447673012300018027
 Transform:
   m_ObjectHideFlags: 0
@@ -701,8 +828,11 @@ MonoBehaviour:
       je n\u2019ai pas la r\xE9ponse."
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -720,8 +850,11 @@ MonoBehaviour:
       je ne veux pas me faire prendre apr\xE8s le couvre-feu."
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -738,8 +871,11 @@ MonoBehaviour:
     text: ' '
     noNames: 1
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 1
     isPetraTalking: 0
@@ -756,8 +892,11 @@ MonoBehaviour:
     text: Yoink !
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 1
     isPetraTalking: 0
@@ -774,8 +913,11 @@ MonoBehaviour:
     text: Que..
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 1
     isPetraTalking: 1
@@ -792,8 +934,11 @@ MonoBehaviour:
     text: "Qu\u2019est-ce que\u2026 La montre\u202F! H\xE9, reviens ici sale gamin\u202F!"
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 1
     isPetraTalking: 1
@@ -811,8 +956,11 @@ MonoBehaviour:
       Ce sale petit\u2026 Aaaghh\u202F!"
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -830,8 +978,11 @@ MonoBehaviour:
       ce que j\u2019\xE9tais venu chercher\u2026"
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -848,8 +999,11 @@ MonoBehaviour:
     text: "Bon\u202F! Il est d\xE9j\xE0 trop tard pour que je parte \xE0 sa recherche."
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -867,8 +1021,11 @@ MonoBehaviour:
       probl\xE8me pour mon moi du demain."
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1

@@ -7,7 +7,7 @@ public class DialogueHandler : ProjectManager<DialogueHandler>
     private string soundtostring;
 
     [HideInInspector] public CharacterInfo characterInfo;
-    [SerializeField] private CharacterInfo cantExamineDialogue;
+    [SerializeField] private CharacterInfo[] cantExamineDialogue;
     [SerializeField] private CharacterInfo afterLetterExamenDialogue;
 
     [SerializeField] private List<CharacterInfo> cantTravelDialogues;
@@ -81,9 +81,9 @@ public class DialogueHandler : ProjectManager<DialogueHandler>
 
    }
 
-    public void CantExamineDialogue()
+    public void CantExamineDialogue(int dialogueIndex)
     {
-        startDialogue(cantExamineDialogue, true);
+        startDialogue(cantExamineDialogue[dialogueIndex], true);
     }
 
    public void FirstDialogueUIDisplay()

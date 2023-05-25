@@ -28,7 +28,8 @@ public class UIManager : ProjectManager<UIManager>
     [SerializeField] private Transform inspectionCusorToSpawnTransform;
     private GameObject inspectionCursor;
     private GameObject inspectionCursorFind;
-    private bool canUseWatch = true;
+    [SerializeField] private bool canUseWatch = true;
+    [SerializeField] private bool isWatchEnable = false;
 
 
     [SerializeField] GameObject watchButton;
@@ -732,7 +733,7 @@ public class UIManager : ProjectManager<UIManager>
     #region Examen Environement
     public void EnableEnvironementExamen()
     {
-        if(canUseWatch)
+        if(canUseWatch && isWatchEnable)
         {
             GetSpawnCursorPosition();
             if (isInspectingEnviro)
@@ -799,12 +800,17 @@ public class UIManager : ProjectManager<UIManager>
                 }
             }
         }
-        else
+        else if(!canUseWatch && isWatchEnable)
         {
-            DialogueHandler.Instance.CantExamineDialogue();
+            //Debug.Log("Montre active mais pas utilisable");
+            DialogueHandler.Instance.CantExamineDialogue(1);
         }
-        
 
+        else if (!isWatchEnable)
+        {
+            //Debug.Log("Montre désactivée");
+            DialogueHandler.Instance.CantExamineDialogue(0);
+        }
     }
 
     public void CantUseWatch()
@@ -812,7 +818,18 @@ public class UIManager : ProjectManager<UIManager>
         canUseWatch = false;
         watchButtonCantExamine.SetActive(true);
         watchButtonExamine.SetActive(false);
+    }
 
+    public void CanUseWatch()
+    {
+        canUseWatch = true;
+        watchButtonExamine.SetActive(true);
+        watchButtonCantExamine.SetActive(false);
+    }
+
+    public void EnableWatch()
+    {
+        isWatchEnable = true;
     }
 
     public void DisplayTransition()
