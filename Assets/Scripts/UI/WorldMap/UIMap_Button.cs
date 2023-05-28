@@ -53,8 +53,15 @@ public class UIMap_Button : MonoBehaviour
                 
                 DialogueHandler.Instance.StartDialogueCantTravelWatch();
             }
+
+            else if(UIManager.Instance.GetCanUseWatchValue())
+            {
+                DialogueHandler.Instance.StartDialogueCantTravelWatchEnable();
+            }
+
             else
             {
+                Debug.Log("Oui");
                 DialogueHandler.Instance.StartDialogueCantTravel();
             }
 

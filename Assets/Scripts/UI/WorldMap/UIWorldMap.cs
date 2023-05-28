@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using NaughtyAttributes;
 
 public class UIWorldMap : LocalManager<UIWorldMap>
 {
@@ -21,14 +22,19 @@ public class UIWorldMap : LocalManager<UIWorldMap>
     public bool canTravel = true;
 
 
+    [Foldout("Zones Unlocked")]
+    public bool placeUnlocked = false;
+    [Foldout("Zones Unlocked")]
+    public bool hangarsUnlocked = false;
+    [Foldout("Zones Unlocked")]
+    public bool factoriesUnlocked = false;
+    [Foldout("Zones Unlocked")]
+    public bool marketUnlocked = false;
 
-    [HideInInspector]public bool placeUnlocked = false;
-    [HideInInspector]public bool hangarsUnlocked = false;
-    [HideInInspector]public bool factoriesUnlocked = false;
-    [HideInInspector]public bool marketUnlocked = false;
-
-    [HideInInspector] public bool cantGoToRailway = false;
-    [HideInInspector] public bool cantGoToHostel = false;
+    [Foldout("Cant Travel Bools")]
+    public bool cantGoToRailway = false;
+    [Foldout("Cant Travel Bools")]
+    public bool cantGoToHostel = false;
 
     private void OnEnable() 
     {

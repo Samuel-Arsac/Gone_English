@@ -269,8 +269,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Et voil\xE0 les Hangars\u202Fm\u2019dame ! Faut que j\u2019y aille, mais
-      n\u2019h\xE9sitez pas \xE0 revenir me voir si vous avez besoin d\u2019un guide\u202F!"
+    text: "Here we are ma\u2019am ! I gotta go, but I\u2019ll be around if you need
+      a guide again !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -291,8 +291,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Merc\u2026 Oh, il est d\xE9j\xE0 parti. Hum. Tr\xE8s bien. Quel \xE9trange
-      gamin\u2026 Enfin bref\u202F!"
+    text: "Thank\u2026 Oh, he\u2019s already gone. Hm. Very well. What a strange
+      kid\u2026 Anyway !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -310,11 +310,11 @@ MonoBehaviour:
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
     petraSpriteIdx: 14
-  - type: 2
+  - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Le Hangar 107 devrait \xEAtre par ici, je crois. \r\n... Ethan n\u2019a
-      pas l\u2019air d\u2019\xEAtre l\xE0. J\u2019imagine que je vais devoir chercher\u2026"
+    text: "So this is the hangars\u2026 Ethan doesn\u2019t seem to be around. Given
+      the time, maybe it\u2019s too late ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -327,7 +327,29 @@ MonoBehaviour:
     isPetraTalking: 1
     isPetraThinking: 1
     isThirdTalking: 0
-    nextDialogueIdx: 0
+    nextDialogueIdx: 3
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 3
+  - type: 2
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "\"There must be at least 107 of them !\u201D The hangars seem to be numbered.
+      Maybe I should look around the hangar n\xB0107 ?"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: Dialogue_02
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 1
+    isPetraThinking: 1
+    isThirdTalking: 0
+    nextDialogueIdx: 3
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
@@ -864,8 +886,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Allez, arr\xEAte de trainer Katie\u202F!  Si on se fait encore engueuler
-      par le boss par ta faute je vais te\u2026"
+    text: "Come on, hurry up Katie ! If we get yelled at again by the boss, I\u2019m
+      going to\u2026"
     noNames: 0
     unknownCharacter: 1
     showingObject: 0
@@ -886,7 +908,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Ah \xE7a va, c\u2019est pas toi qui dois te trimbaler cette caisse, Keoni\u202F!"
+    text: "Yeah, I know, you\u2019re not the one who has to lug this crate around,
+      Keoni !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -900,16 +923,15 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 1
     nextDialogueIdx: 2
-    characterToTalkSpriteIdx: 2
+    characterToTalkSpriteIdx: 3
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 1
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "J\u2019te jure, c\u2019est toujours \xAB\u202Fd\xE9p\xEAche-toi Katie,
-      arr\xEAte de trainer Katie\u202F\xBB et jamais\u202F\xAB\u202FT\u2019as besoin
-      d\u2019aide Katie\u202F?\u202F\xBB..."
+    text: "I swear, it\u2019s always \u201CHurry up Katie, get moving Katie\u201D
+      and never \u201CDo you need help Katie ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -923,15 +945,15 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 1
     nextDialogueIdx: 3
-    characterToTalkSpriteIdx: 2
+    characterToTalkSpriteIdx: 3
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 1
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "On joue avec des forces dangereuses avec ce plan, on a pas le luxe de
-      prendre du retard\u202F!"
+    text: "We\u2019re playing a dangerous game with this plan, we can\u2019t afford
+      to waste time !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -952,8 +974,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Est-ce que tu as la moindre id\xE9e de ce qui nous arrivera si les gens
-      apprennent ce qu\u2019on a fait\u202F?"
+    text: "Do you have any idea what will happen if people learn what we\u2019re
+      doing ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -967,14 +989,14 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 0
     nextDialogueIdx: 5
-    characterToTalkSpriteIdx: 3
+    characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 1
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Maintenant, arr\xEAte de te plaindre et d\xE9p\xEAche-toi\u202F!"
+    text: Now, stop complaining and get moving !
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -988,15 +1010,14 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 0
     nextDialogueIdx: 6
-    characterToTalkSpriteIdx: 3
+    characterToTalkSpriteIdx: 2
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 1
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "\xC7a va, \xE7a va, c\u2019est bon, je sais\u202F! \u2026 C\u2019est quand
-      m\xEAme lourd\u2026"
+    text: "Yeah, yeah, alright, I know ! ... It\u2019s still heavy\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1012,14 +1033,13 @@ MonoBehaviour:
     nextDialogueIdx: 7
     characterToTalkSpriteIdx: 3
     IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 0
+    otherInterlocutorSpriteIdx: 2
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Urghhhhhhh\u2026 C\u2019est \xE0 cause de ce satan\xE9 Ethan qu\u2019on
-      se retrouve \xE0 faire \xE7a\u2026 Si jamais on le retrouve, je vais le faire
-      regretter\u202F!"
+    text: "Urghhhh\u2026 It\u2019s because of that damn Ethan we end up doing this\u2026
+      If we ever find him again, I\u2019ll make him regret it !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1033,15 +1053,14 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 0
     nextDialogueIdx: 8
-    characterToTalkSpriteIdx: 2
+    characterToTalkSpriteIdx: 1
     IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 0
+    otherInterlocutorSpriteIdx: 2
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Huf\u2026 Huf\u2026 On est assez loin non\u202F? On pourrait pas enfin
-      se d\xE9barrasser de cette caisse\u202F?"
+    text: "Huf\u2026 Huf\u2026 What\u2019s in this box anyway ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1055,15 +1074,15 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 1
     nextDialogueIdx: 9
-    characterToTalkSpriteIdx: 3
+    characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 2
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Hmm\u2026 Oui, \xE7a devrait \xEAtre bon. Si jamais on est d\xE9couvert,
-      je doute que les brigades partent chercher aussi loin dans les hangars. "
+    text: No idea, but the boss said to not open it and to throw it over the edge,
+      so.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1084,7 +1103,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Pose l\xE0 derri\xE8re ces caisses, l\xE0. \xC7a suffira, je pense."
+    text: "Huf\u2026 Huf\u2026 Maybe, there\u2019s nothing in it and he just did
+      that to punish us."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1096,18 +1116,16 @@ MonoBehaviour:
     isFirstInterlocutorHere: 1
     isPetraTalking: 0
     isPetraThinking: 0
-    isThirdTalking: 0
+    isThirdTalking: 1
     nextDialogueIdx: 11
-    characterToTalkSpriteIdx: 0
+    characterToTalkSpriteIdx: 3
     IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 2
+    otherInterlocutorSpriteIdx: 3
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Ahhhh enfin\u2026 Je sais pas si j\u2019aurais pu la transporter beaucoup
-      plus loin.\u202FQu\u2019est-ce qu\u2019il y avait dans cette bo\xEEte de toute
-      fa\xE7on\u202F?"
+    text: What ? Why would he want to punish us ?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1119,17 +1137,16 @@ MonoBehaviour:
     isFirstInterlocutorHere: 1
     isPetraTalking: 0
     isPetraThinking: 0
-    isThirdTalking: 1
+    isThirdTalking: 0
     nextDialogueIdx: 12
-    characterToTalkSpriteIdx: 0
+    characterToTalkSpriteIdx: 3
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 3
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Aucune id\xE9e. Mais le boss a vraiment insist\xE9 sur le fait qu\u2019on
-      devait bien le cacher."
+    text: "Cuz I broke the base\u2019s window last week."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1141,17 +1158,16 @@ MonoBehaviour:
     isFirstInterlocutorHere: 1
     isPetraTalking: 0
     isPetraThinking: 0
-    isThirdTalking: 0
+    isThirdTalking: 1
     nextDialogueIdx: 13
-    characterToTalkSpriteIdx: 1
+    characterToTalkSpriteIdx: 2
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 3
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "\xC7a se trouve, y avait rien dedans et il a juste fait \xE7a pour nous
-      punir.\u202F"
+    text: "Wh\u2026 That was you ?! I got yelled at for hours !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1163,38 +1179,16 @@ MonoBehaviour:
     isFirstInterlocutorHere: 1
     isPetraTalking: 0
     isPetraThinking: 0
-    isThirdTalking: 1
+    isThirdTalking: 0
     nextDialogueIdx: 14
-    characterToTalkSpriteIdx: 1
+    characterToTalkSpriteIdx: 2
     IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 2
+    otherInterlocutorSpriteIdx: 3
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Hein\u202F? Pourquoi il voudrait nous punir\u202F?"
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 0
-    playSound: 0
-    soundToPlay: 
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 0
-    isFirstInterlocutorHere: 1
-    isPetraTalking: 0
-    isPetraThinking: 0
-    isThirdTalking: 0
-    nextDialogueIdx: 15
-    characterToTalkSpriteIdx: 3
-    IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 2
-    petraSpriteIdx: 0
-  - type: 0
-    changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 0}
-    text: "Ben, parce que c'\xE9tait moi qui avait bris\xE9 la vitre de la base la
-      semaine derni\xE8re."
+    text: ...Hehe.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1207,32 +1201,158 @@ MonoBehaviour:
     isPetraTalking: 0
     isPetraThinking: 0
     isThirdTalking: 1
-    nextDialogueIdx: 16
-    characterToTalkSpriteIdx: 3
-    IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 3
-    petraSpriteIdx: 0
-  - type: 2
-    changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 0}
-    text: "Qu... C'\xE9tait toi ?! J'me suis fait engueuler pendant des heures !
-      Je vais t..."
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 0
-    playSound: 0
-    soundToPlay: 
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 0
-    isFirstInterlocutorHere: 1
-    isPetraTalking: 0
-    isPetraThinking: 0
-    isThirdTalking: 0
     nextDialogueIdx: 15
     characterToTalkSpriteIdx: 2
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 3
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: Shh ! Shut up !
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 16
+    characterToTalkSpriteIdx: 3
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 1
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "Oh, come one, no need to get that angry\u2026"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 1
+    nextDialogueIdx: 17
+    characterToTalkSpriteIdx: 2
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 1
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "No, listen ! There\u2019s people coming !"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 18
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 2
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "Shit ! You think it\u2019s the militia ?"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 1
+    nextDialogueIdx: 19
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 2
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "We\u2019re not gonna stay around and find out ! Quick, put the box behind
+      those other crates, and let\u2019s get out of here !"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 20
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "Gotcha ! The hangar\u2019s number is\u2026 107!"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 1
+    nextDialogueIdx: 21
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 0
+  - type: 2
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "We\u2019ll come back tomorrow to pick it up ! Now, l\u2026"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 1
+    nextDialogueIdx: 21
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 0
     petraSpriteIdx: 0
   proofsPresentations: 0
   myProofLists: []
@@ -1731,7 +1851,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 731987535}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2003,6 +2123,8 @@ RectTransform:
   - {fileID: 1146237772}
   - {fileID: 1538001063}
   - {fileID: 1473257286}
+  - {fileID: 921062787}
+  - {fileID: 1673026384}
   - {fileID: 1502125130}
   - {fileID: 1920877292}
   - {fileID: 720187647}
@@ -2084,6 +2206,280 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &921062786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 921062787}
+  - component: {fileID: 921062793}
+  - component: {fileID: 921062792}
+  - component: {fileID: 921062791}
+  - component: {fileID: 921062790}
+  - component: {fileID: 921062789}
+  - component: {fileID: 921062788}
+  m_Layer: 5
+  m_Name: InsideHangars_AfterGotWatch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &921062787
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921062786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 731987535}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3.414, y: 3.03}
+  m_SizeDelta: {x: 5.1697, y: 3.4148}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &921062788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921062786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070f2c6a616761442bd5a4ec098045c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableType: 3
+--- !u!114 &921062789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921062786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4773609fada066c45bbf1438dfe3b7a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterNameSprite:
+  - {fileID: 21300000, guid: 029c151dcb6420949946052710a23a20, type: 3}
+  isAlone: 1
+  pastDialogue: 0
+  gotLinkCharacter: 0
+  linkCharacter: {fileID: 0}
+  autoLaunch: 0
+  waitForLaunchTime: 0
+  newChangement: 0
+  newObjects: []
+  destroyWhenChangement: []
+  objectsToInstantiate: []
+  FirstCharacterSprites:
+  - {fileID: 21300000, guid: e31011780c81e214ca8c46a562c646d4, type: 3}
+  anotherInterlocutor: 0
+  OtherToTalkSprites:
+  - {fileID: 0}
+  PetraSprites:
+  - {fileID: 21300000, guid: fec0ac9b47a33d140a2536228439c054, type: 3}
+  - {fileID: 21300000, guid: f20aa2464df61db48b1f7f511dbba495, type: 3}
+  - {fileID: 21300000, guid: d9a1bc88ef85e9b4095e06bd68e9cfda, type: 3}
+  - {fileID: 21300000, guid: d34548298a95a20408763bd6012196d4, type: 3}
+  - {fileID: 21300000, guid: 3c7b120817d96ef40ab08e54de9da162, type: 3}
+  - {fileID: 21300000, guid: d101db56bdd2dc34886db2610d2b05f3, type: 3}
+  - {fileID: 21300000, guid: 761f6d9fb6943e54aa33ea5e38c986a3, type: 3}
+  - {fileID: 21300000, guid: 49b0e8ee65537254c83d83f444940747, type: 3}
+  - {fileID: 21300000, guid: 3a5eaf498aa260b438d345807cf7756f, type: 3}
+  - {fileID: 21300000, guid: a694fb83a3272484eb4f67a7411ed993, type: 3}
+  - {fileID: 21300000, guid: e26a9fedc1dfb334986bbe69b194d55c, type: 3}
+  - {fileID: 21300000, guid: 587f0ec5aba29444aa0af418b2475b0e, type: 3}
+  - {fileID: 21300000, guid: 86afb16bc0af4be45b771f2b89adc833, type: 3}
+  - {fileID: 21300000, guid: 0808fb3472e37fd4ba5cbd56c2a70903, type: 3}
+  - {fileID: 21300000, guid: c017c73d71b01f7478abc0612f899c2f, type: 3}
+  - {fileID: 21300000, guid: 1a66244aa25397a4db69a0c58e928d4b, type: 3}
+  - {fileID: 21300000, guid: f8cf733de7b49fc4a8a755a31f8f3b13, type: 3}
+  myDialogueList:
+  - type: 2
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 1382121509}
+    text: The watch is shaking more and more. I need to find a way to stop it !
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 1
+    isPetraThinking: 1
+    isThirdTalking: 0
+    nextDialogueIdx: 0
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 14
+  proofsPresentations: 0
+  myProofLists: []
+--- !u!114 &921062790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921062786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 921062788}
+          m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+          m_MethodName: EnterObject
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 921062791}
+          m_TargetAssemblyTypeName: HoverButton, Assembly-CSharp
+          m_MethodName: OnHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 921062788}
+          m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+          m_MethodName: ExitObject
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 921062791}
+          m_TargetAssemblyTypeName: HoverButton, Assembly-CSharp
+          m_MethodName: OnExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 921062788}
+          m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+          m_MethodName: OnClick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 921062791}
+          m_TargetAssemblyTypeName: HoverButton, Assembly-CSharp
+          m_MethodName: OnExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &921062791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921062786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c1ed05c9776e2448d740346afc8ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightSprite: {fileID: 21300000, guid: afcea179a8466ab40a7240a159057ebd, type: 3}
+  linkedSection: {fileID: 0}
+--- !u!114 &921062792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921062786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 24c1441d393fe444096feaaaa0e98a2a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &921062793
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921062786}
+  m_CullTransparentMesh: 1
 --- !u!1 &935013223 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1337830415794454668, guid: 4b285005363da454698e12d8506b275b, type: 3}
@@ -2335,9 +2731,8 @@ MonoBehaviour:
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Le Hangar 107 est dans cette zone, je ferais mieux de ne pas trop m\u2019en
-      \xE9loigner. Je suis s\xFBre qu\u2019il y a quelque chose \xE0 trouver par
-      ici.\u202F"
+    text: "The hangar 107 is in this area, I better not go too far from here. I\u2019m
+      sure there\u2019s something to be found here\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -2654,8 +3049,12 @@ MonoBehaviour:
   newChangement: 1
   newObjects:
   - {fileID: 1473257285}
+  - {fileID: 921062786}
+  - {fileID: 1673026383}
   destroyWhenChangement:
   - {fileID: 1146237771}
+  - {fileID: 1077889371}
+  - {fileID: 1538001062}
   objectsToInstantiate: []
   FirstCharacterSprites:
   - {fileID: 21300000, guid: 243fc2ec597f52a4ea1bdfe2d3138155, type: 3}
@@ -2685,8 +3084,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Le tas de caisses \xE0 l\u2019air d\u2019\xEAtre l\xE0 depuis un moment,
-      il y a une fine couche de poussi\xE8re par-dessus."
+    text: "This pile of crates looks like it\u2019s been there a while, there\u2019s
+      a thin layer of dust over it."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -2706,8 +3105,8 @@ MonoBehaviour:
     petraSpriteIdx: 5
   - type: 0
     changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 0}
-    text: "\u2026Hum\u202F? On dirait que quelque chose a \xE9t\xE9 plac\xE9 derri\xE8re\u2026 "
+    objectsAfterChangement: {fileID: 1382121509}
+    text: ...
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -2724,16 +3123,17 @@ MonoBehaviour:
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 3
+    petraSpriteIdx: 5
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Cette boite en bois semble plus r\xE9cente que les autres."
+    text: Nothing here either. Maybe I was wrong ? This kind of puzzle seems just
+      like the kind of thing Ethan would do, though.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
     playSound: 0
-    soundToPlay: OpenBox
+    soundToPlay: 
     playDialogue: 0
     dialogueToPlay: 
     isPetraHere: 1
@@ -2745,12 +3145,11 @@ MonoBehaviour:
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 4
+    petraSpriteIdx: 3
   - type: 0
     changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 0}
-    text: "Mais\u2026 Ce num\xE9ro grav\xE9 sur la bo\xEEte\u2026 C\u2019est mon
-      num\xE9ro de citoyen\u202F!"
+    objectsAfterChangement: {fileID: 1382121509}
+    text: ....Uh...?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -2769,12 +3168,12 @@ MonoBehaviour:
     otherInterlocutorSpriteIdx: 0
     petraSpriteIdx: 15
   - type: 0
-    changementAfterDialogue: 0
+    changementAfterDialogue: 1
     objectsAfterChangement: {fileID: 1296237846}
-    text: "Est-ce que c\u2019est \xE7a qu\u2019Ethan voulait me donner\u202F?"
+    text: "The watch ! It\u2019s vibrating !\r"
     noNames: 0
     unknownCharacter: 0
-    showingObject: 0
+    showingObject: 1
     playSound: 0
     soundToPlay: 
     playDialogue: 0
@@ -2788,58 +3187,12 @@ MonoBehaviour:
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 11
-  - type: 0
-    changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 1296237846}
-    text: "Qu\u2019est ce qui peut se trouver dans cette bo\xEEte qui peut justifier
-      me faire venir jusqu\u2019\xE0 Technograd\u202F?"
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 0
-    playSound: 1
-    soundToPlay: OpenBox
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 1
-    isFirstInterlocutorHere: 0
-    isPetraTalking: 1
-    isPetraThinking: 1
-    isThirdTalking: 0
-    nextDialogueIdx: 6
-    characterToTalkSpriteIdx: 0
-    IsOtherInterlocutorHere: 0
-    otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 11
-  - type: 0
-    changementAfterDialogue: 1
-    objectsAfterChangement: {fileID: 1296237846}
-    text: "Une montre. Est-ce qu\u2019il m\u2019a vraiment fait faire tout ce chemin
-      pour une montre\u202F?\u202FEst-ce que c\u2019est vraiment \xE7a que je devais
-      trouver\u202F?"
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 1
-    playSound: 0
-    soundToPlay: 
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 1
-    isFirstInterlocutorHere: 0
-    isPetraTalking: 1
-    isPetraThinking: 1
-    isThirdTalking: 0
-    nextDialogueIdx: 7
-    characterToTalkSpriteIdx: 0
-    IsOtherInterlocutorHere: 0
-    otherInterlocutorSpriteIdx: 0
     petraSpriteIdx: 17
-  - type: 0
+  - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 1296237846}
-    text: "Je veux dire, forc\xE9ment, sinon il n\u2019y aurait pas mon num\xE9ro
-      de citoyen grav\xE9 sur la bo\xEEte. Mais alors, qu\u2019est-ce que c\u2019est
-      cens\xE9 vouloir dire\u202F?"
+    text: "And this blue light\u2026 What activated it ? Can I press a button to
+      make it stop ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 1
@@ -2853,70 +3206,6 @@ MonoBehaviour:
     isPetraThinking: 1
     isThirdTalking: 0
     nextDialogueIdx: 8
-    characterToTalkSpriteIdx: 0
-    IsOtherInterlocutorHere: 0
-    otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 17
-  - type: 0
-    changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 1296237846}
-    text: "Qu\u2019est-ce que tu essaies de me faire comprendre Ethan\u2026 Peut-\xEAtre
-      qu\u2019il y a quelque chose \xE0 l\u2019int\xE9rieur\u202F?"
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 1
-    playSound: 0
-    soundToPlay: 
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 1
-    isFirstInterlocutorHere: 0
-    isPetraTalking: 1
-    isPetraThinking: 1
-    isThirdTalking: 0
-    nextDialogueIdx: 10
-    characterToTalkSpriteIdx: 0
-    IsOtherInterlocutorHere: 0
-    otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 17
-  - type: 0
-    changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 1296237846}
-    text: "Un de ces boutons qui ouvrirait un compartiment, ou quelque chose\u2026 "
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 1
-    playSound: 0
-    soundToPlay: 
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 1
-    isFirstInterlocutorHere: 0
-    isPetraTalking: 1
-    isPetraThinking: 1
-    isThirdTalking: 0
-    nextDialogueIdx: 11
-    characterToTalkSpriteIdx: 0
-    IsOtherInterlocutorHere: 0
-    otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 17
-  - type: 2
-    changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 1382121509}
-    text: "Que\u2026\u202F?!\u202F\xBB "
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 1
-    playSound: 0
-    soundToPlay: 
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 1
-    isFirstInterlocutorHere: 0
-    isPetraTalking: 1
-    isPetraThinking: 1
-    isThirdTalking: 0
-    nextDialogueIdx: 7
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
@@ -3129,7 +3418,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 731987535}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3405,7 +3694,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 731987535}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4572,31 +4861,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f8cf733de7b49fc4a8a755a31f8f3b13, type: 3}
   - {fileID: 21300000, guid: bab974997cda2434da8111730ede80e5, type: 3}
   myDialogueList:
-  - type: 0
-    changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 1382121509}
-    text: "Il n'y a plus rien derri\xE8re cette caisse."
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 0
-    playSound: 0
-    soundToPlay: 
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 1
-    isFirstInterlocutorHere: 0
-    isPetraTalking: 1
-    isPetraThinking: 1
-    isThirdTalking: 0
-    nextDialogueIdx: 1
-    characterToTalkSpriteIdx: 0
-    IsOtherInterlocutorHere: 0
-    otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 4
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 1382121509}
-    text: "Je devrais examiner cette montre plus en d\xE9tails avant toute chose."
+    text: The watch is shaking more and more. I need to find a way to stop it !
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -4613,7 +4881,7 @@ MonoBehaviour:
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 4
+    petraSpriteIdx: 14
   proofsPresentations: 0
   myProofLists: []
 --- !u!114 &1473257291
@@ -4688,7 +4956,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 731987535}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4985,7 +5253,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 731987535}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5055,9 +5323,8 @@ MonoBehaviour:
   myDialogueList:
   - type: 2
     changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 0}
-    text: "Cette montre\u2026 Je peux peut-\xEAtre l\u2019utiliser sur un de mes
-      objets ? J\u2019ai besoin de comprendre comment elle fonctionne."
+    objectsAfterChangement: {fileID: 1382121509}
+    text: The watch is shaking more and more. I need to find a way to stop it !
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5074,7 +5341,7 @@ MonoBehaviour:
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 5
+    petraSpriteIdx: 14
   proofsPresentations: 0
   myProofLists: []
 --- !u!114 &1502125133
@@ -5396,8 +5663,7 @@ MonoBehaviour:
   - type: 2
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Il vaut mieux que j\u2019\xE9vite de m\u2019approcher trop pr\xE8s des
-      bords. Un coup de vent un peu trop fort et..."
+    text: "I\u2019d rather not get too close to the edge. A strong gust of wind and\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5868,7 +6134,7 @@ MonoBehaviour:
   isAlone: 0
   pastDialogue: 1
   gotLinkCharacter: 1
-  linkCharacter: {fileID: 540223581}
+  linkCharacter: {fileID: 1666929086}
   autoLaunch: 0
   waitForLaunchTime: 0
   newChangement: 1
@@ -5896,8 +6162,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Allez, arr\xEAte de trainer Katie\u202F!  Si on se fait encore engueuler
-      par le boss par ta faute je vais te\u2026"
+    text: "Come on, hurry up Katie ! If we get yelled at again by the boss, I\u2019m
+      going to\u2026"
     noNames: 0
     unknownCharacter: 1
     showingObject: 0
@@ -5918,7 +6184,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Ah \xE7a va, c\u2019est pas toi qui dois te trimbaler cette caisse, Keoni\u202F!"
+    text: "Yeah, I know, you\u2019re not the one who has to lug this crate around,
+      Keoni !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5932,16 +6199,15 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 1
     nextDialogueIdx: 2
-    characterToTalkSpriteIdx: 2
+    characterToTalkSpriteIdx: 3
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 1
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "J\u2019te jure, c\u2019est toujours \xAB\u202Fd\xE9p\xEAche-toi Katie,
-      arr\xEAte de trainer Katie\u202F\xBB et jamais\u202F\xAB\u202FT\u2019as besoin
-      d\u2019aide Katie\u202F?\u202F\xBB..."
+    text: "I swear, it\u2019s always \u201CHurry up Katie, get moving Katie\u201D
+      and never \u201CDo you need help Katie ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5955,15 +6221,15 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 1
     nextDialogueIdx: 3
-    characterToTalkSpriteIdx: 2
+    characterToTalkSpriteIdx: 3
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 1
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "On joue avec des forces dangereuses avec ce plan, on a pas le luxe de
-      prendre du retard\u202F!"
+    text: "We\u2019re playing a dangerous game with this plan, we can\u2019t afford
+      to waste time !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5984,8 +6250,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Est-ce que tu as la moindre id\xE9e de ce qui nous arrivera si les gens
-      apprennent ce qu\u2019on a fait\u202F?"
+    text: "Do you have any idea what will happen if people learn what we\u2019re
+      doing ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5999,14 +6265,14 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 0
     nextDialogueIdx: 5
-    characterToTalkSpriteIdx: 3
+    characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 1
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Maintenant, arr\xEAte de te plaindre et d\xE9p\xEAche-toi\u202F!"
+    text: Now, stop complaining and get moving !
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6020,15 +6286,14 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 0
     nextDialogueIdx: 6
-    characterToTalkSpriteIdx: 3
+    characterToTalkSpriteIdx: 2
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 1
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "\xC7a va, \xE7a va, c\u2019est bon, je sais\u202F! \u2026 C\u2019est quand
-      m\xEAme lourd\u2026"
+    text: "Yeah, yeah, alright, I know ! ... It\u2019s still heavy\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6044,14 +6309,13 @@ MonoBehaviour:
     nextDialogueIdx: 7
     characterToTalkSpriteIdx: 3
     IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 0
+    otherInterlocutorSpriteIdx: 2
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Urghhhhhhh\u2026 C\u2019est \xE0 cause de ce satan\xE9 Ethan qu\u2019on
-      se retrouve \xE0 faire \xE7a\u2026 Si jamais on le retrouve, je vais le faire
-      regretter\u202F!"
+    text: "Urghhhh\u2026 It\u2019s because of that damn Ethan we end up doing this\u2026
+      If we ever find him again, I\u2019ll make him regret it !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6065,15 +6329,14 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 0
     nextDialogueIdx: 8
-    characterToTalkSpriteIdx: 2
+    characterToTalkSpriteIdx: 1
     IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 0
+    otherInterlocutorSpriteIdx: 2
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Huf\u2026 Huf\u2026 On est assez loin non\u202F? On pourrait pas enfin
-      se d\xE9barrasser de cette caisse\u202F?"
+    text: "Huf\u2026 Huf\u2026 What\u2019s in this box anyway ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6087,15 +6350,15 @@ MonoBehaviour:
     isPetraThinking: 0
     isThirdTalking: 1
     nextDialogueIdx: 9
-    characterToTalkSpriteIdx: 3
+    characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 2
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Hmm\u2026 Oui, \xE7a devrait \xEAtre bon. Si jamais on est d\xE9couvert,
-      je doute que les brigades partent chercher aussi loin dans les hangars. "
+    text: No idea, but the boss said to not open it and to throw it over the edge,
+      so.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6116,7 +6379,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Pose l\xE0 derri\xE8re ces caisses, l\xE0. \xC7a suffira, je pense."
+    text: "Huf\u2026 Huf\u2026 Maybe, there\u2019s nothing in it and he just did
+      that to punish us."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6128,18 +6392,16 @@ MonoBehaviour:
     isFirstInterlocutorHere: 1
     isPetraTalking: 0
     isPetraThinking: 0
-    isThirdTalking: 0
+    isThirdTalking: 1
     nextDialogueIdx: 11
-    characterToTalkSpriteIdx: 0
+    characterToTalkSpriteIdx: 3
     IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 2
+    otherInterlocutorSpriteIdx: 3
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Ahhhh enfin\u2026 Je sais pas si j\u2019aurais pu la transporter beaucoup
-      plus loin.\u202FQu\u2019est-ce qu\u2019il y avait dans cette bo\xEEte de toute
-      fa\xE7on\u202F?"
+    text: What ? Why would he want to punish us ?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6151,17 +6413,16 @@ MonoBehaviour:
     isFirstInterlocutorHere: 1
     isPetraTalking: 0
     isPetraThinking: 0
-    isThirdTalking: 1
+    isThirdTalking: 0
     nextDialogueIdx: 12
-    characterToTalkSpriteIdx: 0
+    characterToTalkSpriteIdx: 3
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 3
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Aucune id\xE9e. Mais le boss a vraiment insist\xE9 sur le fait qu\u2019on
-      devait bien le cacher."
+    text: "Cuz I broke the base\u2019s window last week."
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6173,17 +6434,16 @@ MonoBehaviour:
     isFirstInterlocutorHere: 1
     isPetraTalking: 0
     isPetraThinking: 0
-    isThirdTalking: 0
+    isThirdTalking: 1
     nextDialogueIdx: 13
-    characterToTalkSpriteIdx: 1
+    characterToTalkSpriteIdx: 2
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 3
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "\xC7a se trouve, y avait rien dedans et il a juste fait \xE7a pour nous
-      punir.\u202F"
+    text: "Wh\u2026 That was you ?! I got yelled at for hours !"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6195,38 +6455,16 @@ MonoBehaviour:
     isFirstInterlocutorHere: 1
     isPetraTalking: 0
     isPetraThinking: 0
-    isThirdTalking: 1
+    isThirdTalking: 0
     nextDialogueIdx: 14
-    characterToTalkSpriteIdx: 1
+    characterToTalkSpriteIdx: 2
     IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 2
+    otherInterlocutorSpriteIdx: 3
     petraSpriteIdx: 0
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Hein\u202F? Pourquoi il voudrait nous punir\u202F?"
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 0
-    playSound: 0
-    soundToPlay: 
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 0
-    isFirstInterlocutorHere: 1
-    isPetraTalking: 0
-    isPetraThinking: 0
-    isThirdTalking: 0
-    nextDialogueIdx: 15
-    characterToTalkSpriteIdx: 3
-    IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 2
-    petraSpriteIdx: 0
-  - type: 0
-    changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 0}
-    text: "Ben, parce que c'\xE9tait moi qui avait bris\xE9 la vitre de la base la
-      semaine derni\xE8re."
+    text: ...Hehe.
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -6239,32 +6477,158 @@ MonoBehaviour:
     isPetraTalking: 0
     isPetraThinking: 0
     isThirdTalking: 1
-    nextDialogueIdx: 16
-    characterToTalkSpriteIdx: 3
-    IsOtherInterlocutorHere: 1
-    otherInterlocutorSpriteIdx: 3
-    petraSpriteIdx: 0
-  - type: 2
-    changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 0}
-    text: "Qu... C'\xE9tait toi ?! J'me suis fait engueuler pendant des heures !
-      Je vais t..."
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 0
-    playSound: 0
-    soundToPlay: 
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 0
-    isFirstInterlocutorHere: 1
-    isPetraTalking: 0
-    isPetraThinking: 0
-    isThirdTalking: 0
     nextDialogueIdx: 15
     characterToTalkSpriteIdx: 2
     IsOtherInterlocutorHere: 1
     otherInterlocutorSpriteIdx: 3
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: Shh ! Shut up !
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 16
+    characterToTalkSpriteIdx: 3
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 1
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "Oh, come one, no need to get that angry\u2026"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 1
+    nextDialogueIdx: 17
+    characterToTalkSpriteIdx: 2
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 1
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "No, listen ! There\u2019s people coming !"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 18
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 2
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "Shit ! You think it\u2019s the militia ?"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 1
+    nextDialogueIdx: 19
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 2
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "We\u2019re not gonna stay around and find out ! Quick, put the box behind
+      those other crates, and let\u2019s get out of here !"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 20
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "Gotcha ! The hangar\u2019s number is\u2026 107!"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 1
+    nextDialogueIdx: 21
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 0
+  - type: 2
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "We\u2019ll come back tomorrow to pick it up ! Now, l\u2026"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 0
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 0
+    isThirdTalking: 1
+    nextDialogueIdx: 21
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 1
+    otherInterlocutorSpriteIdx: 0
     petraSpriteIdx: 0
   proofsPresentations: 0
   myProofLists: []
@@ -6442,6 +6806,280 @@ PolygonCollider2D:
       - {x: -6.604735, y: -3.9737258}
       - {x: 6.522336, y: -4.019209}
       - {x: 6.5282454, y: 4.058093}
+--- !u!1 &1673026383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1673026384}
+  - component: {fileID: 1673026390}
+  - component: {fileID: 1673026389}
+  - component: {fileID: 1673026388}
+  - component: {fileID: 1673026387}
+  - component: {fileID: 1673026386}
+  - component: {fileID: 1673026385}
+  m_Layer: 5
+  m_Name: Passerelle_AfterGotWatch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1673026384
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673026383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 731987535}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.3163, y: -1.8462}
+  m_SizeDelta: {x: 7.8766, y: 1.7265}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1673026385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673026383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070f2c6a616761442bd5a4ec098045c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableType: 3
+--- !u!114 &1673026386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673026383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4773609fada066c45bbf1438dfe3b7a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterNameSprite:
+  - {fileID: 21300000, guid: 029c151dcb6420949946052710a23a20, type: 3}
+  isAlone: 1
+  pastDialogue: 0
+  gotLinkCharacter: 0
+  linkCharacter: {fileID: 0}
+  autoLaunch: 0
+  waitForLaunchTime: 0
+  newChangement: 0
+  newObjects: []
+  destroyWhenChangement: []
+  objectsToInstantiate: []
+  FirstCharacterSprites:
+  - {fileID: 21300000, guid: e31011780c81e214ca8c46a562c646d4, type: 3}
+  anotherInterlocutor: 0
+  OtherToTalkSprites:
+  - {fileID: 0}
+  PetraSprites:
+  - {fileID: 21300000, guid: fec0ac9b47a33d140a2536228439c054, type: 3}
+  - {fileID: 21300000, guid: f20aa2464df61db48b1f7f511dbba495, type: 3}
+  - {fileID: 21300000, guid: d9a1bc88ef85e9b4095e06bd68e9cfda, type: 3}
+  - {fileID: 21300000, guid: d34548298a95a20408763bd6012196d4, type: 3}
+  - {fileID: 21300000, guid: 3c7b120817d96ef40ab08e54de9da162, type: 3}
+  - {fileID: 21300000, guid: d101db56bdd2dc34886db2610d2b05f3, type: 3}
+  - {fileID: 21300000, guid: 761f6d9fb6943e54aa33ea5e38c986a3, type: 3}
+  - {fileID: 21300000, guid: 49b0e8ee65537254c83d83f444940747, type: 3}
+  - {fileID: 21300000, guid: 3a5eaf498aa260b438d345807cf7756f, type: 3}
+  - {fileID: 21300000, guid: a694fb83a3272484eb4f67a7411ed993, type: 3}
+  - {fileID: 21300000, guid: e26a9fedc1dfb334986bbe69b194d55c, type: 3}
+  - {fileID: 21300000, guid: 587f0ec5aba29444aa0af418b2475b0e, type: 3}
+  - {fileID: 21300000, guid: 86afb16bc0af4be45b771f2b89adc833, type: 3}
+  - {fileID: 21300000, guid: 0808fb3472e37fd4ba5cbd56c2a70903, type: 3}
+  - {fileID: 21300000, guid: c017c73d71b01f7478abc0612f899c2f, type: 3}
+  - {fileID: 21300000, guid: 1a66244aa25397a4db69a0c58e928d4b, type: 3}
+  - {fileID: 21300000, guid: f8cf733de7b49fc4a8a755a31f8f3b13, type: 3}
+  myDialogueList:
+  - type: 2
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 1382121509}
+    text: The watch is shaking more and more. I need to find a way to stop it !
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 1
+    isPetraThinking: 1
+    isThirdTalking: 0
+    nextDialogueIdx: 0
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 14
+  proofsPresentations: 0
+  myProofLists: []
+--- !u!114 &1673026387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673026383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1673026385}
+          m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+          m_MethodName: EnterObject
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1673026388}
+          m_TargetAssemblyTypeName: HoverButton, Assembly-CSharp
+          m_MethodName: OnHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1673026385}
+          m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+          m_MethodName: ExitObject
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1673026388}
+          m_TargetAssemblyTypeName: HoverButton, Assembly-CSharp
+          m_MethodName: OnExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1673026385}
+          m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+          m_MethodName: OnClick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1673026388}
+          m_TargetAssemblyTypeName: HoverButton, Assembly-CSharp
+          m_MethodName: OnExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1673026388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673026383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c1ed05c9776e2448d740346afc8ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightSprite: {fileID: 21300000, guid: d0d3745f982befd408b4a4698372f316, type: 3}
+  linkedSection: {fileID: 0}
+--- !u!114 &1673026389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673026383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6de7b4ff40dcc8b44af0159bf5dfb727, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1673026390
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673026383}
+  m_CullTransparentMesh: 1
 --- !u!1 &1692060907
 GameObject:
   m_ObjectHideFlags: 0
@@ -6953,7 +7591,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 731987535}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7276,7 +7914,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 731987535}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8100,7 +8738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1337830415794454666, guid: 4b285005363da454698e12d8506b275b, type: 3}
       propertyPath: gotWatch
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1337830415794454668, guid: 4b285005363da454698e12d8506b275b, type: 3}
       propertyPath: m_IsActive
@@ -8801,6 +9439,30 @@ PrefabInstance:
     - target: {fileID: 8353433715002960711, guid: 4b285005363da454698e12d8506b275b, type: 3}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525004921411765488, guid: 4b285005363da454698e12d8506b275b, type: 3}
+      propertyPath: canTravel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525004921411765488, guid: 4b285005363da454698e12d8506b275b, type: 3}
+      propertyPath: currentZone
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525004921411765488, guid: 4b285005363da454698e12d8506b275b, type: 3}
+      propertyPath: placeUnlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525004921411765488, guid: 4b285005363da454698e12d8506b275b, type: 3}
+      propertyPath: cantGoToHostel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525004921411765488, guid: 4b285005363da454698e12d8506b275b, type: 3}
+      propertyPath: cantGoToRailway
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525004921411765488, guid: 4b285005363da454698e12d8506b275b, type: 3}
+      propertyPath: hangarsUnlocked
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8584728014244861833, guid: 4b285005363da454698e12d8506b275b, type: 3}
       propertyPath: m_AnchorMax.y

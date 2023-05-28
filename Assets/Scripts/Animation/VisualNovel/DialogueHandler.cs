@@ -168,6 +168,8 @@ public class DialogueHandler : ProjectManager<DialogueHandler>
        UIScrollingMenu.instance.HidePresentMenu();
    }
 
+
+    #region Start Cant Travel Dialogues
     public void StartDialogueCantTravelRailway()
     {
         startDialogue(cantTravelDialogues[0], true);
@@ -188,12 +190,19 @@ public class DialogueHandler : ProjectManager<DialogueHandler>
         startDialogue(cantTravelDialogues[3], true);
     }
 
-   public void SetImageDialoguePosition(Image imageToMove)
+    public void StartDialogueCantTravelWatchEnable()
+    {
+        startDialogue(cantTravelDialogues[4], true);
+    }
+
+    #endregion
+    public void SetImageDialoguePosition(Image imageToMove)
    {
         imageToMove.transform.position = dialoguePostion.position;
         imageToMove.transform.localScale = dialoguePostion.localScale;
    }
 
+    
 
     public void SetImageMonologuePosition(Image imageToMove)
     {

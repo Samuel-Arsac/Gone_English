@@ -559,9 +559,13 @@ public class UIManager : ProjectManager<UIManager>
             DisplayEnviroCursor();
             EnableEnvironementExamen();
         }
-
-        EnableInteractionEnvironnment();
-        EnableButtons();
+        
+        if(!characterInfo.pastDialogue)
+        {
+            EnableInteractionEnvironnment();
+            EnableButtons();
+        }
+        
 
     }
     
@@ -663,7 +667,6 @@ public class UIManager : ProjectManager<UIManager>
 
     public void DisableInteractionEnvironnment()
     {
-        //Debug.Log("DisableInteractionEnvironnement");
         interactableCanvas.interactable = false;
         interactableCanvas.blocksRaycasts = false;
     }
@@ -811,6 +814,11 @@ public class UIManager : ProjectManager<UIManager>
             //Debug.Log("Montre désactivée");
             DialogueHandler.Instance.CantExamineDialogue(0);
         }
+    }
+
+    public bool GetCanUseWatchValue()
+    {
+        return canUseWatch;
     }
 
     public void CantUseWatch()
