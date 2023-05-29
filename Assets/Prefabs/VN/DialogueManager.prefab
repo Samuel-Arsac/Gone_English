@@ -284,10 +284,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1a66244aa25397a4db69a0c58e928d4b, type: 3}
   - {fileID: 21300000, guid: f8cf733de7b49fc4a8a755a31f8f3b13, type: 3}
   myDialogueList:
-  - type: 0
+  - type: 3
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: I want to understand how this watch works before I leave.
+    text: "The watch came with Ethan\u2019s letter, so if I use it on it, maybe\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -301,28 +301,6 @@ MonoBehaviour:
     isPetraThinking: 1
     isThirdTalking: 0
     nextDialogueIdx: 1
-    characterToTalkSpriteIdx: 0
-    IsOtherInterlocutorHere: 0
-    otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 3
-  - type: 3
-    changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 0}
-    text: "Est-ce qu\u2019utiliser la lentille sur un objet me donnera plus d\u2019informations
-      ?"
-    noNames: 0
-    unknownCharacter: 0
-    showingObject: 0
-    playSound: 0
-    soundToPlay: 
-    playDialogue: 0
-    dialogueToPlay: 
-    isPetraHere: 1
-    isFirstInterlocutorHere: 0
-    isPetraTalking: 1
-    isPetraThinking: 1
-    isThirdTalking: 0
-    nextDialogueIdx: 0
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
@@ -620,7 +598,8 @@ MonoBehaviour:
   - type: 3
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Hmm... It seems that the watch doesn't detect anything in this area anymore.
+    text: "It doesn\u2019t detect anything more in this area, but it doesn\u2019t
+      seem to be completely deactivated. Maybe if I reduce the area I use it on\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -718,7 +697,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1a66244aa25397a4db69a0c58e928d4b, type: 3}
   - {fileID: 21300000, guid: f8cf733de7b49fc4a8a755a31f8f3b13, type: 3}
   myDialogueList:
-  - type: 2
+  - type: 3
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
     text: The watch is shaking more and more. I need to find a way to stop it !

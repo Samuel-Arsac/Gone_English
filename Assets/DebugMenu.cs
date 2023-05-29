@@ -28,25 +28,36 @@ public class DebugMenu : ProjectManager<DebugMenu>
     public void LoadHangars()
     {
         SceneManager.LoadScene("Hangars");
+        HideDebugMenu();
     }
 
     public void LoadRailway()
     {
         SceneManager.LoadScene("Gare");
+        HideDebugMenu();
     }
 
     public void LoadHotel()
     {
         SceneManager.LoadScene("Hôtel");
+        HideDebugMenu();
     }
     public void LoadPlace()
     {
         SceneManager.LoadScene("GrandePlace");
+        HideDebugMenu();
+    }
+
+    public void LoadChase()
+    {
+        SceneManager.LoadScene("GrandePlace_Chase");
+        HideDebugMenu();
     }
 
     public void LoadEnd()
     {
         SceneManager.LoadScene("End");
+        HideDebugMenu();
     }
 
 }

@@ -20,4 +20,9 @@ public class StartDialogue : MonoBehaviour
             StartCoroutine(characterInfo.waitForDialogueToStart());
         }
     }
+
+    public void BeginDialogue()
+    {
+        DialogueHandler.Instance.startDialogue(characterInfo, true);
+    }
 }

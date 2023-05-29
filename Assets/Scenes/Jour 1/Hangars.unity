@@ -1572,9 +1572,9 @@ MonoBehaviour:
   - {fileID: 1931459674}
   - {fileID: 1420853588}
   destroyWhenChangement:
-  - {fileID: 1077889371}
-  - {fileID: 1146237771}
-  - {fileID: 1538001062}
+  - {fileID: 921062786}
+  - {fileID: 1473257285}
+  - {fileID: 1673026383}
   objectsToInstantiate: []
   FirstCharacterSprites:
   - {fileID: 21300000, guid: e1cc66febb291ea4794dc2f26ac18ebb, type: 3}
@@ -1602,9 +1602,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Que\u2026 Qu\u2019est-ce que c\u2019\xE9tait que \xE7a\u202F? Ces gens
-      qui parlaient et qui n\u2019\xE9taient l\xE0 qu\u2019\xE0 travers la lentille
-      de la montre\u2026 "
+    text: "Wh\u2026 What was that ? Those people who were talking and who were only
+      here through the lens of the watch\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1625,8 +1624,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Est-ce que c\u2019\xE9tait\u2026 Une vision du pass\xE9\u202F? Comment
-      est-ce possible\u202F?"
+    text: "Was that\u2026 a vision of the past ? How is this possible ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1647,8 +1645,8 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Plus important encore, ces\u2026 voyous ont mentionn\xE9 Ethan. Est-ce
-      qu\u2019il a fait quelque chose pour les \xE9nerver\u202F? "
+    text: "More importantly, those\u2026 hooligans mentioned Ethan. Did he do something
+      to rile them up ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1669,8 +1667,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: " Est-ce que c\u2019est pour \xE7a qu\u2019il m\u2019a contact\xE9\u202F?
-      Il s\u2019est fait capturer par ce gang\u202F?"
+    text: Is this why he contacted me ? He got captured by that gang ?
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1691,7 +1688,7 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Et cette montre\u2026 d\u2019o\xF9 vient-elle\u202F?"
+    text: "And this watch\u2026 Where did it come from ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1709,11 +1706,11 @@ MonoBehaviour:
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
     petraSpriteIdx: 3
-  - type: 2
+  - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Il y a trop de questions qui se posent\u2026\u202FEst-ce que\u2026 je
-      peux utiliser cette montre sur d\u2019autres choses\u202F?"
+    text: "Argh\u2026 There\u2019s too many questions to think about... How am I
+      supposed to find Ethan now ?"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1726,11 +1723,74 @@ MonoBehaviour:
     isPetraTalking: 1
     isPetraThinking: 0
     isThirdTalking: 0
-    nextDialogueIdx: 5
+    nextDialogueIdx: 6
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
     petraSpriteIdx: 4
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "He didn\u2019t leave me a lot of informations in his letter\u2026"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 1
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 7
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 4
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: ...
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 1
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 8
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 5
+  - type: 2
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "But maybe with the watch\u2026?"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 1
+    isPetraThinking: 0
+    isThirdTalking: 0
+    nextDialogueIdx: 7
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 9
   proofsPresentations: 0
   myProofLists: []
 --- !u!114 &583218777
@@ -1919,11 +1979,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1a66244aa25397a4db69a0c58e928d4b, type: 3}
   - {fileID: 21300000, guid: f8cf733de7b49fc4a8a755a31f8f3b13, type: 3}
   myDialogueList:
-  - type: 2
+  - type: 3
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Cette montre\u2026 Je peux peut-\xEAtre l\u2019utiliser sur un de mes
-      objets ? J\u2019ai besoin de comprendre comment elle fonctionne."
+    text: "The watch came with Ethan\u2019s letter, so if I use it on it, maybe\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -1936,11 +1995,11 @@ MonoBehaviour:
     isPetraTalking: 1
     isPetraThinking: 1
     isThirdTalking: 0
-    nextDialogueIdx: 0
+    nextDialogueIdx: 1
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 5
+    petraSpriteIdx: 3
   proofsPresentations: 0
   myProofLists: []
 --- !u!114 &720187650
@@ -5321,10 +5380,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1a66244aa25397a4db69a0c58e928d4b, type: 3}
   - {fileID: 21300000, guid: f8cf733de7b49fc4a8a755a31f8f3b13, type: 3}
   myDialogueList:
-  - type: 2
+  - type: 3
     changementAfterDialogue: 0
-    objectsAfterChangement: {fileID: 1382121509}
-    text: The watch is shaking more and more. I need to find a way to stop it !
+    objectsAfterChangement: {fileID: 0}
+    text: "The watch came with Ethan\u2019s letter, so if I use it on it, maybe\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -5337,11 +5396,11 @@ MonoBehaviour:
     isPetraTalking: 1
     isPetraThinking: 1
     isThirdTalking: 0
-    nextDialogueIdx: 0
+    nextDialogueIdx: 1
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 14
+    petraSpriteIdx: 3
   proofsPresentations: 0
   myProofLists: []
 --- !u!114 &1502125133
@@ -7304,6 +7363,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 299069275753889108, guid: 992889fc215010042a3b63f7047cf2a9, type: 3}
+      propertyPath: myDialogueList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 299069275753889108, guid: 992889fc215010042a3b63f7047cf2a9, type: 3}
+      propertyPath: myDialogueList.Array.data[0].type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2911501096571072913, guid: 992889fc215010042a3b63f7047cf2a9, type: 3}
       propertyPath: m_Name
       value: DialogueManager
@@ -7770,11 +7837,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1a66244aa25397a4db69a0c58e928d4b, type: 3}
   - {fileID: 21300000, guid: f8cf733de7b49fc4a8a755a31f8f3b13, type: 3}
   myDialogueList:
-  - type: 2
+  - type: 3
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Cette montre\u2026 Je peux peut-\xEAtre l\u2019utiliser sur un de mes
-      objets ? J\u2019ai besoin de comprendre comment elle fonctionne."
+    text: "The watch came with Ethan\u2019s letter, so if I use it on it, maybe\u2026"
     noNames: 0
     unknownCharacter: 0
     showingObject: 0
@@ -7787,11 +7853,11 @@ MonoBehaviour:
     isPetraTalking: 1
     isPetraThinking: 1
     isThirdTalking: 0
-    nextDialogueIdx: 0
+    nextDialogueIdx: 1
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
-    petraSpriteIdx: 5
+    petraSpriteIdx: 3
   proofsPresentations: 0
   myProofLists: []
 --- !u!114 &1920877297

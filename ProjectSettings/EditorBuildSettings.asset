@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Jour 1/Hangars.unity
     guid: 556e1d88bd792f8469de9263fc48fe3b
   - enabled: 1
+    path: Assets/Scenes/Jour 1/GrandePlace_Chase.unity
+    guid: 803404b6f82d1934aa0c27e69b24d7ab
+  - enabled: 1
     path: Assets/Scenes/Jour 1/End.unity
     guid: 6234877c817f3fe4eb24f09179011166
   m_configObjects: {}

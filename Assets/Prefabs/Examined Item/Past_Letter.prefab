@@ -374,8 +374,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 101.8665, y: -28}
-  m_SizeDelta: {x: 14.2954, y: 9.0575}
+  m_AnchoredPosition: {x: 120.7, y: 4.4}
+  m_SizeDelta: {x: 32.7647, y: 20.7596}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4973185293843140778
 CanvasRenderer:
@@ -428,7 +428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterNameSprite:
-  - {fileID: 21300000, guid: b05258fc14164f74a8f974b1a78fdf9c, type: 3}
+  - {fileID: 21300000, guid: d4ff575d5df62694bacd77541441024a, type: 3}
   isAlone: 1
   pastDialogue: 0
   gotLinkCharacter: 0
@@ -439,9 +439,12 @@ MonoBehaviour:
   newObjects: []
   destroyWhenChangement: []
   objectsToInstantiate:
-  - {fileID: 8273882035778492607, guid: fef30edf386dd6a46a9c1f1a0085e947, type: 3}
+  - {fileID: 2635547508876987654, guid: d4584fb95713973428e235aed0d29373, type: 3}
   FirstCharacterSprites:
-  - {fileID: 21300000, guid: b05258fc14164f74a8f974b1a78fdf9c, type: 3}
+  - {fileID: 21300000, guid: 243fc2ec597f52a4ea1bdfe2d3138155, type: 3}
+  - {fileID: 21300000, guid: f22637fcd3302a34480d5662398c79cc, type: 3}
+  - {fileID: 21300000, guid: 64ca4ab510d200d409f1232fd140ce32, type: 3}
+  - {fileID: 21300000, guid: 882f405ada8a41947986340161a99c9c, type: 3}
   anotherInterlocutor: 0
   OtherToTalkSprites: []
   PetraSprites:
@@ -466,12 +469,15 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Le message a chang\xE9 ! Je m\u2019en doutais, cette montre permet bien
-      de voir dans le pass\xE9 ! "
+    text: The message did change ! I knew it, this watch really can show me the past
+      !
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -485,12 +491,15 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Mais ce message\u2026 \xAB 108 \xBB. Pourquoi un message aussi brefn s'il
-      avait l'opportunit\xE9 d'\xE9crire ce qu'il voulait ?"
+    text: "But this message\u2026 \u201CFollow my lead\u201D. It seems to confirm
+      that he needs help, but\u2026 It doesn\u2019t give me much more information."
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -504,11 +513,15 @@ MonoBehaviour:
   - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: Qu'est-ce que tu ne me dis pas Ethan...?
+    text: Why such a short message, if he had the time to write anything he wanted
+      ?
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
@@ -519,25 +532,155 @@ MonoBehaviour:
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
     petraSpriteIdx: 15
-  - type: 3
+  - type: 0
     changementAfterDialogue: 0
     objectsAfterChangement: {fileID: 0}
-    text: "Enfin bref, j\u2019imagine que ce \xAB 108 \xBB fait r\xE9f\xE9rence au
-      hangar 108 ? Peut-\xEAtre que je vais y trouver un message plus long..."
+    text: "What are you not telling me, Ethan\u2026"
     noNames: 0
     unknownCharacter: 0
+    showingObject: 0
     playSound: 0
     soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
     isPetraHere: 1
     isFirstInterlocutorHere: 0
     isPetraTalking: 1
     isPetraThinking: 1
     isThirdTalking: 0
-    nextDialogueIdx: 3
+    nextDialogueIdx: 4
     characterToTalkSpriteIdx: 0
     IsOtherInterlocutorHere: 0
     otherInterlocutorSpriteIdx: 0
     petraSpriteIdx: 5
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "\u2026"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 1
+    isPetraThinking: 1
+    isThirdTalking: 0
+    nextDialogueIdx: 5
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 5
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "I already thought too much for today, and it\u2019s getting late. I\u2019ll
+      get back to the hotel for now. I wouldn\u2019t want to get caught after the
+      curfew\u2026"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 1
+    isPetraThinking: 1
+    isThirdTalking: 0
+    nextDialogueIdx: 6
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: ...
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 1
+    isPetraThinking: 1
+    isThirdTalking: 0
+    nextDialogueIdx: 7
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 0
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: Yoink !
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 1
+    isThirdTalking: 0
+    nextDialogueIdx: 8
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 16
+  - type: 0
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: Wh...
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 1
+    isPetraTalking: 0
+    isPetraThinking: 1
+    isThirdTalking: 0
+    nextDialogueIdx: 9
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 16
+  - type: 2
+    changementAfterDialogue: 0
+    objectsAfterChangement: {fileID: 0}
+    text: "Wait\u2026 The watch ! Hey, come back here you little brat !"
+    noNames: 0
+    unknownCharacter: 0
+    showingObject: 0
+    playSound: 0
+    soundToPlay: 
+    playDialogue: 0
+    dialogueToPlay: 
+    isPetraHere: 1
+    isFirstInterlocutorHere: 0
+    isPetraTalking: 0
+    isPetraThinking: 1
+    isThirdTalking: 0
+    nextDialogueIdx: 9
+    characterToTalkSpriteIdx: 0
+    IsOtherInterlocutorHere: 0
+    otherInterlocutorSpriteIdx: 0
+    petraSpriteIdx: 16
   proofsPresentations: 0
   myProofLists: []
 --- !u!114 &4973185293843140776
@@ -660,7 +803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b5e123071648234d8449b38f9b2033e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointInformations: "Le papier s'est abim\xE9 avec le temps,"
+  pointInformations: The paper has deteriorated over time.
   hasBeenChecked: 0
 --- !u!114 &8542580362917741135
 MonoBehaviour:

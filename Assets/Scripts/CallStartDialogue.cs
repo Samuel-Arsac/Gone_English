@@ -10,7 +10,5 @@ public class CallStartDialogue : MonoBehaviour
     {
         GameObject oui = GameObject.FindGameObjectWithTag("Destroy");
         oui.GetComponent<DestroyOld>().enabled = true;
-
-        
     }
 }

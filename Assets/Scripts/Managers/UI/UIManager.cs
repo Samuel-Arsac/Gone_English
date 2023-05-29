@@ -565,6 +565,10 @@ public class UIManager : ProjectManager<UIManager>
             EnableInteractionEnvironnment();
             EnableButtons();
         }
+        else
+        {
+            HideIcons();
+        }
         
 
     }

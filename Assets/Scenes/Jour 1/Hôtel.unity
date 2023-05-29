@@ -7034,6 +7034,10 @@ PrefabInstance:
       propertyPath: worldCanvasGameObject
       value: 
       objectReference: {fileID: 1467132337}
+    - target: {fileID: 8525004921411765488, guid: 4b285005363da454698e12d8506b275b, type: 3}
+      propertyPath: currentZone
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8827072710422933778, guid: 4b285005363da454698e12d8506b275b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1

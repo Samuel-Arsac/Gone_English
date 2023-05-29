@@ -7,6 +7,14 @@ public class LaunchMusic : MonoBehaviour
     [SerializeField] private string songName;
     private void Start() 
     {
-        AudioManager.Instance.PlayMusic(songName);
+        if(AudioManager.Instance.newTrack.name ==  songName)
+        {
+            return;
+        }
+        else
+        {
+            AudioManager.Instance.PlayMusic(songName);
+        }
+        
     }
 }
